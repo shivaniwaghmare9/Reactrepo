@@ -10,7 +10,7 @@ const todoSlice=createSlice({
             state.task.push(actions.payload)
         },
         taskDelete:(state,actions)=>{
-            state.task=state.task.filter(items=>items.id!==actions.payload.id)
+            state.task=state.task.filter(items=>items.id!=actions.payload.id)
         }
     }
 })

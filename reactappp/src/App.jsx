@@ -25,12 +25,13 @@ const App=()=>{
     <>
      <h1>ToDo App!</h1>
      Enter Task: <input type="text" value={txt} onChange={(e)=>{setTxt(e.target.value)}}/><br/><br/>
-     <button onClick={()=>{dispatch(addTask({work:txt}))}}>Add</button>
+     <button onClick={()=>{dispatch(addTask({id:Date.now(),work:txt}))}}>Add</button>
      <br/>
      <table border="1" width="300px">
       <tr>
         <th>Sno</th>
         <th>Task</th>
+        <th>Delete</th>
       </tr>
       {ans}
      </table>
