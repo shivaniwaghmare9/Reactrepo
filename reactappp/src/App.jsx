@@ -51,6 +51,9 @@ const App=()=>{
         <td>
           <span onClick={()=>{dispatch(taskInComplete({id:key.id}))}}>incomplete</span>
         </td>
+        <td>
+          <span onClick={()=>{dataEdit(key.id,key.work)}}>edit</span>
+        </td>
        </tr>
       </>
     )
@@ -59,7 +62,16 @@ const App=()=>{
     <>
      <h1>ToDo App!</h1>
      Enter Task: <input type="text" value={txt} onChange={(e)=>{setTxt(e.target.value)}}/><br/><br/>
-     <button onClick={()=>{dispatch(addTask({id:Date.now(),work:txt,taskStatus:false}))}}>Add</button>
+     {btn ? (
+        <>
+       <button onClick={()=>{dispatch(addTask({id:Date.now(),work:txt,taskStatus:false}))}}>Add</button>
+       </>
+     ):(
+      <>
+       <button onClick={myEditData}>EditSave</button>
+      </>
+     )}
+     
      <br/>
      <table border="1" width="700px">
       <tr>
@@ -69,7 +81,7 @@ const App=()=>{
         <th>Remove</th>
         <th>Complete</th>
         <th>Incomplete</th>
-        <th>EditSave</th>
+        <th>Edit</th>
       </tr>
       {ans}
      </table>
