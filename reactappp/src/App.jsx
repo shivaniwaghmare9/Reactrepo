@@ -13,17 +13,19 @@ const App=()=>{
       <>
        <tr>
         <td>{sno}</td>
-        <td>{ taskStatus? 
+        <td>{key.taskStatus ? (
         <>
          <span style={{color:"red",textDecoration:"line-through"}}>
             {key.work}
           </span>
         </>
-      }:{
+    ):(
         <>
         {key.work}
         </>
-      }
+
+    )}
+      
       </td>
           
         <td>

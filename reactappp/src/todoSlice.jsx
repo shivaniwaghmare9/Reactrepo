@@ -24,14 +24,14 @@ const todoSlice=createSlice({
             })
         },
         taskComplete:(state,actions)=>{
-            for(var i=0; i<state.id.length; i++)
+            for(var i=0; i<state.task.length; i++)
             if(state.task[i].id==actions.payload.id)
             {
                 state.task[i].taskStatus=true;
             }
         },
         taskInComplete:(state,actions)=>{
-            for(var i=0; i<state.id.length; i++)
+            for(var i=0; i<state.task.length; i++)
             if(state.task[i].id==actions.payload.id)
             {
                 state.task[i].taskStatus=false;
