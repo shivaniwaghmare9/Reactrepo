@@ -1,13 +1,13 @@
 
 import { useSelector,useDispatch } from "react-redux";
 import { useState } from "react";
-import { addTask,taskDelete,taskComplete,taskInComplete } from "./todoSlice";
+import { addTask,taskDelete,taskRebyindex,taskComplete,taskInComplete } from "./todoSlice";
 const App=()=>{
   const data=useSelector(state=>state.todo.task);
   const dispatch=useDispatch();
   const[txt,setTxt]=useState("")
   let sno=0;
-  const ans=data.map((key)=>{
+  const ans=data.map((key,index)=>{
     sno++;
     return(
       <>
@@ -32,6 +32,9 @@ const App=()=>{
           <span onClick={()=>{dispatch(taskDelete({id:key.id}))}}>delete</span>
         </td>
         <td>
+          <span onClick={()=>{dispatch(taskRebyindex({id:index}))}}>remove</span>
+        </td>
+        <td>
           <span onClick={()=>{dispatch(taskComplete({id:key.id}))}}>complete</span>
         </td>
         <td>
@@ -47,11 +50,12 @@ const App=()=>{
      Enter Task: <input type="text" value={txt} onChange={(e)=>{setTxt(e.target.value)}}/><br/><br/>
      <button onClick={()=>{dispatch(addTask({id:Date.now(),work:txt,taskStatus:false}))}}>Add</button>
      <br/>
-     <table border="1" width="300px">
+     <table border="1" width="700px">
       <tr>
         <th>Sno</th>
         <th>Task</th>
         <th>Delete</th>
+        <th>Remove</th>
         <th>Complete</th>
         <th>Incomplete</th>
       </tr>
