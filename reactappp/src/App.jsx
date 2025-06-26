@@ -1,11 +1,22 @@
 
 import { useSelector,useDispatch } from "react-redux";
 import { useState } from "react";
-import { addTask,taskDelete,taskRebyindex,taskComplete,taskInComplete } from "./todoSlice";
+import { addTask,taskDelete,taskRebyindex,taskComplete,taskInComplete,taskEdit } from "./todoSlice";
 const App=()=>{
   const data=useSelector(state=>state.todo.task);
   const dispatch=useDispatch();
   const[txt,setTxt]=useState("")
+  const[btn,setBtn]=useState(true)
+  const[myid,setMyid]=useState("");
+  const dataEdit=(id,work)=>{
+    setTxt(work)
+    setBtn(false)
+    setMyid(id)
+  };
+  const myEditData=()=>{
+      dispatch(taskEdit({id:myid,work:txt}))
+      setBtn(true)
+  }
   let sno=0;
   const ans=data.map((key,index)=>{
     sno++;
@@ -58,6 +69,7 @@ const App=()=>{
         <th>Remove</th>
         <th>Complete</th>
         <th>Incomplete</th>
+        <th>EditSave</th>
       </tr>
       {ans}
      </table>
