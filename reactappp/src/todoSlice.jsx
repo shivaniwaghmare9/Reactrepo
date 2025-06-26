@@ -9,10 +9,35 @@ const todoSlice=createSlice({
         addTask:(state,actions)=>{
             state.task.push(actions.payload)
         },
+        // taskDelete:(state,actions)=>{
+        //     state.task=state.task.filter(items=>items.id!=actions.payload.id)
+        // }
         taskDelete:(state,actions)=>{
-            state.task=state.task.filter(items=>items.id!=actions.payload.id)
+            state.task=state.task.filter(function(key){
+                if(key.id==actions.payload.id)
+                {
+                    return false
+                }
+                else{
+                    return true;
+                }
+            })
+        },
+        taskComplete:(state,actions)=>{
+            for(var i=0; i<state.id.length; i++)
+            if(state.task[i].id==actions.payload.id)
+            {
+                state.task[i].taskStatus=true;
+            }
+        },
+        taskInComplete:(state,actions)=>{
+            for(var i=0; i<state.id.length; i++)
+            if(state.task[i].id==actions.payload.id)
+            {
+                state.task[i].taskStatus=false;
+            }
         }
     }
 })
-export const{addTask,taskDelete}=todoSlice.actions;
+export const{addTask,taskDelete,taskComplete,taskInComplete}=todoSlice.actions;
 export default todoSlice.reducer;
