@@ -1,7 +1,7 @@
 
 import { useSelector,useDispatch } from "react-redux";
 import { useState } from "react";
-import { addTask } from "./todoSlice";
+import { addTask,taskDelete } from "./todoSlice";
 const App=()=>{
   const data=useSelector(state=>state.todo.task);
   const dispatch=useDispatch();
@@ -14,6 +14,9 @@ const App=()=>{
        <tr>
         <td>{sno}</td>
         <td>{key.work}</td>
+        <td>
+          <span onClick={()=>{dispatch(taskDelete({id:key.id}))}}>delete</span>
+        </td>
        </tr>
       </>
     )
