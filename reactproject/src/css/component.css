@@ -1,0 +1,69 @@
+
+/*===============================================(Footer Component)=======================================================================================================================*/
+
+#delivery{
+    /*border: 1px solid black;*/
+    margin-top: 40px;
+    background-color: rgba(126, 169, 196, 0.82);
+    margin: 2rem;
+}
+#delivery .inform {
+    width: 100%;
+    height:  60vh;
+   /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 3rem;
+}
+#delivery .inform div{
+    width: 700px;
+    height: 300px;
+    border-right: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   flex-direction: column;
+   font-size: 15px;
+}
+#icons{
+    font-size: 50px;
+}
+.ftr{
+    width: 100%;
+    height: 400px;
+     background-color: azure;
+     display: flex;
+     justify-content: center;
+     gap: 50px;
+     padding: 2rem;
+     background-color: black;
+     color: rgb(228, 228, 225);
+     
+}
+.ftr div h3{
+     color: aliceblue;
+     font-weight: bold;
+     font-size: 23px;
+}
+.ftr div h5{
+     color: aliceblue;
+     font-weight: bold;
+     font-size: 15px;
+}
+.ftr div{
+    display: flex;
+    flex-direction: column;
+}
+#social{
+    display: inline;
+    font-size: 30px;
+    gap: 30px;
+}
+#inp{
+    display: none;
+}
+#bar{
+    display: none;
+}
