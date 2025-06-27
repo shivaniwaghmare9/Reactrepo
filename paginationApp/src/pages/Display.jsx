@@ -5,6 +5,18 @@ import Table from 'react-bootstrap/Table';
 
 
 const Display=()=>{
+
+  const sortdata=()=>{
+      let datasort = [...mydata].sort((a,b)=>{
+        if(a.Name < b.Name){
+            return -1;
+        }else if( a.Name > b.Name){
+            return 1;
+        }
+      })
+      setMydata(datasort);
+      console.log(datasort);
+    }
     
     const[myData,setMydata]=useState([]);
     const loadData=async()=>{
@@ -70,7 +82,7 @@ function nextPage()
       <thead>
         <tr>
           <th>Sno</th>
-          <th>Name</th>
+          <th onClick={sortdata}>Name</th>
           <th>City</th>
           <th>Post</th>
           <th>Salary</th>

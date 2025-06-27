@@ -41,6 +41,13 @@
       "city": "Vidisha",
       "post": "Teacher",
       "salary": "34000"
+    },
+    {
+      "id": "a3e7",
+      "name": "preetam",
+      "city": "indore",
+      "post": "developer",
+      "salary": "45000"
     }
   ]
 }
