@@ -73,3 +73,22 @@ body{
     margin-left: 20px;
     background-color: rgb(78, 176, 179)
 }
+/*/====================================================================================================================================================*/
+
+.pagin{
+ background-color: rgb(113, 176, 215);
+ height: 50px;
+ padding: 1rem;
+}
+ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 30px;
+    color: aliceblue;
+    
+}
+ul li{
+    text-decoration: none;
+    color: aliceblue;
+}

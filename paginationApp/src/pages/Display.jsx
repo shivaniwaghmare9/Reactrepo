@@ -18,7 +18,7 @@ const Display=()=>{
     },[])
 
     const [currentPage, setCurrentPage]= useState(1);
-  const recordsPerPage=5;
+  const recordsPerPage=3;
   const lastIndex= currentPage*recordsPerPage;
   const firstIndex= lastIndex-recordsPerPage;
   const records= myData.slice(firstIndex, lastIndex);
@@ -81,7 +81,7 @@ function nextPage()
       </tbody>
       </Table>
 
-      <nav>
+      <nav className="pagin">
          <ul className="display">
           <li>
              <a href="#" onClick={prePage}> Pre </a>   
