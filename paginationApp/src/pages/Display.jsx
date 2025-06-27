@@ -21,12 +21,12 @@ const Display=()=>{
   const recordsPerPage=5;
   const lastIndex= currentPage*recordsPerPage;
   const firstIndex= lastIndex-recordsPerPage;
-  const records= Data.slice(firstIndex, lastIndex);
+  const records= myData.slice(firstIndex, lastIndex);
   const npage= Math.ceil(Data.length/recordsPerPage);
   const numbers=[...Array(npage+1).keys()].slice(1);
   
     let sno=0;
-    const Record=myData.map((key)=>{
+    const Record=records.map((key)=>{
         sno++;
         return(
             <>
@@ -42,7 +42,10 @@ const Display=()=>{
     })
 
 
-    <nav>
+    
+    return(
+        <>
+         <nav>
          <ul className="display">
           <li>
              <a href="#" onClick={prePage}> Pre </a>   
@@ -60,9 +63,7 @@ const Display=()=>{
          </ul>
       </nav>
 
-
-    return(
-        <>
+      
           <h1 id="head">Welcome to display page!!!</h1>
           <Table striped bordered hover>
       <thead>
