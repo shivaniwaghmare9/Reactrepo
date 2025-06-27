@@ -40,7 +40,29 @@ const Display=()=>{
             </>
         )
     })
+    
 
+
+    function prePage()
+{
+  if(currentPage!==1)
+  {
+    setCurrentPage(currentPage-1);
+  }
+}
+
+function changeCPage(id)
+{
+  setCurrentPage(id)
+}
+
+function nextPage()
+{
+   if (currentPage!==npage )
+   {
+    setCurrentPage(currentPage+1);
+   }
+}
 
     
     return(
@@ -80,7 +102,9 @@ const Display=()=>{
       </tbody>
       </Table>
 
+
         </>
+        
     )
 }
 export default Display;
