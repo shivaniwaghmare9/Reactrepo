@@ -40,10 +40,8 @@ const Display=()=>{
             </>
         )
     })
-    
 
-
-    function prePage()
+     function prePage()
 {
   if(currentPage!==1)
   {
@@ -67,7 +65,23 @@ function nextPage()
     
     return(
         <>
-         <nav>
+         <h1 id="head">Welcome to display page!!!</h1>
+          <Table striped bordered hover>
+      <thead>
+        <tr>
+          <th>Sno</th>
+          <th>Name</th>
+          <th>City</th>
+          <th>Post</th>
+          <th>Salary</th>
+        </tr>
+      </thead>
+      <tbody>
+        {Record}
+      </tbody>
+      </Table>
+
+      <nav>
          <ul className="display">
           <li>
              <a href="#" onClick={prePage}> Pre </a>   
@@ -84,23 +98,6 @@ function nextPage()
          </li>
          </ul>
       </nav>
-
-
-          <h1 id="head">Welcome to display page!!!</h1>
-          <Table striped bordered hover>
-      <thead>
-        <tr>
-          <th>Sno</th>
-          <th>Name</th>
-          <th>City</th>
-          <th>Post</th>
-          <th>Salary</th>
-        </tr>
-      </thead>
-      <tbody>
-        {Record}
-      </tbody>
-      </Table>
 
 
         </>

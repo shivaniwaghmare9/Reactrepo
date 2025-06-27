@@ -1,12 +1,18 @@
-
 {
-    "records":[
-        {
-            "id":1,
-            "name":"shivani",
-            "city":"Bhopal",
-            "post":"CEO",
-            "salary":46772
-        }
-    ]
+  "records": [
+    {
+      "id": "1",
+      "name": "shivani",
+      "city": "Bhopal",
+      "post": "CEO",
+      "salary": 46772
+    },
+    {
+      "id": "1774",
+      "name": "shreyaa",
+      "city": "pune",
+      "post": "assistant",
+      "salary": "34000"
+    }
+  ]
 }

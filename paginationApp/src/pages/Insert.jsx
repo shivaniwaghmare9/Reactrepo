@@ -40,7 +40,7 @@ const Insert=()=>{
         <Form.Control type="text"  name="name" onChange={handleInput}/>
       </Form.Group>
       <Form.Group className="mb-3" >
-        <Form.Label>Enter Empno</Form.Label>
+        <Form.Label>Enter City</Form.Label>
         <Form.Control type="text"  name="city" onChange={handleInput}/>
       </Form.Group>
       <Form.Group className="mb-3" >
