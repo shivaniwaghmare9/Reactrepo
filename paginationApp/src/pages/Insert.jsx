@@ -19,14 +19,14 @@ const Insert=()=>{
   }
   const handleSubmit=async(e)=>{
      e.preventDefault();     //page refresh nhii krta h
-    let api="http://localhost:3000/Employee";
+    let api="http://localhost:3000/records";
     const response=await axios.post(api,input);
     toast.success("data succesfully saved!!");
     console.log(response);
     setInput({
       name:"",
-      empno:"",
-      desigantion:"",
+      city:"",
+      post:"",
       salary:""
     })
   }
