@@ -1,0 +1,12 @@
+
+{
+    "records":[
+        {
+            "id":1,
+            "name":"shivani",
+            "city":"Bhopal",
+            "post":"CEO",
+            "salary":46772
+        }
+    ]
+}
