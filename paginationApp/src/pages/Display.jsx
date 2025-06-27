@@ -22,7 +22,7 @@ const Display=()=>{
   const lastIndex= currentPage*recordsPerPage;
   const firstIndex= lastIndex-recordsPerPage;
   const records= myData.slice(firstIndex, lastIndex);
-  const npage= Math.ceil(Data.length/recordsPerPage);
+  const npage= Math.ceil(myData.length/recordsPerPage);
   const numbers=[...Array(npage+1).keys()].slice(1);
   
     let sno=0;
@@ -63,7 +63,7 @@ const Display=()=>{
          </ul>
       </nav>
 
-      
+
           <h1 id="head">Welcome to display page!!!</h1>
           <Table striped bordered hover>
       <thead>
