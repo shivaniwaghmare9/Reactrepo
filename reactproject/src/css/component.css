@@ -11,6 +11,18 @@ body{
     position: sticky;
     z-index: 3;
 }
+.header{
+    height: 60px;
+    background-color: cadetblue;
+}
+.header div{
+    display: flex;
+    gap: 30px;
+    right: 2%;
+    margin-left: 80%;
+}
+
+
 
 /*===============================================(Footer Component)=======================================================================================================================*/
 
