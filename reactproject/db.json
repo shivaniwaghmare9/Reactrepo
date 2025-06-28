@@ -91,7 +91,7 @@
         },
         {
             "id":2,
-            "name":"Jimmy Choo Romy 100",
+            "name":"Adidas Alphabounce",
             "brand":"Adidas",
             "category":"men",
             "price":1800.99,
@@ -99,7 +99,7 @@
         },
         {
             "id":2,
-            "name":"Jimmy Choo Romy 100",
+            "name":"Puma walking",
             "brand":"Puma",
             "category":"men",
             "price":1800.99,
@@ -107,7 +107,7 @@
         },
         {
             "id":2,
-            "name":"Jimmy Choo Romy 100",
+            "name":"Woodland G40777",
             "brand":"Woodland",
             "category":"men",
             "price":1800.99,
@@ -115,7 +115,7 @@
         },
         {
             "id":2,
-            "name":"Jimmy Choo Romy 100",
+            "name":"Red Tape Leather Slip-on",
             "brand":"Red Tape",
             "category":"men",
             "price":1800.99,
@@ -123,7 +123,7 @@
         },
         {
             "id":2,
-            "name":"Jimmy Choo Romy 100",
+            "name":"Bata Men’s Floaters",
             "brand":"Bata",
             "category":"men",
             "price":1800.99,
@@ -131,7 +131,7 @@
         },
         {
             "id":2,
-            "name":"Jimmy Choo Romy 100",
+            "name":"Clarks Tilden Cap",
             "brand":"Clarks",
             "category":"men",
             "price":1800.99,
@@ -139,7 +139,7 @@
         },
         {
             "id":2,
-            "name":"Jimmy Choo Romy 100",
+            "name":"Skechers Go Walk 6",
             "brand":"Skechers",
             "category":"men",
             "price":1800.99,
@@ -147,7 +147,7 @@
         },
         {
             "id":2,
-            "name":"Jimmy Choo Romy 100",
+            "name":"Vans Old Skool",
             "brand":"Reebok",
             "category":"men",
             "price":1800.99,
@@ -227,7 +227,7 @@
         },
         {
             "id":2,
-            "name":"Jimmy Choo Romy 100",
+            "name":"Puma kids ",
             "brand":"Puma Kids",
             "category":"kid",
             "price":1800.99,
