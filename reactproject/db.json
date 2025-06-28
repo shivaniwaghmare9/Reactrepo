@@ -104,7 +104,56 @@
             "category":"men",
             "price":1800.99,
             "image":"https://themewagon.github.io/stylish/images/card-item2.jpg"
+        },
+        {
+            "id":2,
+            "name":"Jimmy Choo Romy 100",
+            "brand":"Woodland",
+            "category":"men",
+            "price":1800.99,
+            "image":"https://themewagon.github.io/stylish/images/card-item2.jpg"
+        },
+        {
+            "id":2,
+            "name":"Jimmy Choo Romy 100",
+            "brand":"Red Tape",
+            "category":"men",
+            "price":1800.99,
+            "image":"https://themewagon.github.io/stylish/images/card-item2.jpg"
+        },
+        {
+            "id":2,
+            "name":"Jimmy Choo Romy 100",
+            "brand":"Bata",
+            "category":"men",
+            "price":1800.99,
+            "image":"https://themewagon.github.io/stylish/images/card-item2.jpg"
+        },
+        {
+            "id":2,
+            "name":"Jimmy Choo Romy 100",
+            "brand":"Clarks",
+            "category":"men",
+            "price":1800.99,
+            "image":"https://themewagon.github.io/stylish/images/card-item2.jpg"
+        },
+        {
+            "id":2,
+            "name":"Jimmy Choo Romy 100",
+            "brand":"Skechers",
+            "category":"men",
+            "price":1800.99,
+            "image":"https://themewagon.github.io/stylish/images/card-item2.jpg"
+        },
+        {
+            "id":2,
+            "name":"Jimmy Choo Romy 100",
+            "brand":"Reebok",
+            "category":"men",
+            "price":1800.99,
+            "image":"https://themewagon.github.io/stylish/images/card-item2.jpg"
         }
+
         
 
     ]
