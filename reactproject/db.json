@@ -6,16 +6,16 @@
             "name":"Nike Air Max 270 React",
             "brand":"Nike",
             "category":"men",
-            "price":1600.55,
-            "image":"https://themewagon.github.io/stylish/images/card-item2.jpg"
+            "price":4657.55,
+            "image":"https://m.media-amazon.com/images/I/518RgzKe3hL._SY695_.jpg"
         },
         {
             "id":2,
             "name":"Adidas Ultraboost 22",
             "brand":"Adidas",
             "category":"men",
-            "price":1800.99,
-            "image":"https://themewagon.github.io/stylish/images/card-item2.jpg"
+            "price":1999.99,
+            "image":"https://m.media-amazon.com/images/I/71kfO4VXDFL._SX695_.jpg"
         },
         {
             "id":2,
@@ -94,64 +94,64 @@
             "name":"Adidas Alphabounce",
             "brand":"Adidas",
             "category":"men",
-            "price":1800.99,
-            "image":"https://themewagon.github.io/stylish/images/card-item2.jpg"
+            "price":2500.54,
+            "image":"https://m.media-amazon.com/images/I/71Q7q80lZ2L._SX695_.jpg"
         },
         {
             "id":2,
-            "name":"Puma walking",
+            "name":"Puma Unisex Adult Smash V2 L",
             "brand":"Puma",
             "category":"men",
-            "price":1800.99,
-            "image":"https://themewagon.github.io/stylish/images/card-item2.jpg"
+            "price":2090.34,
+            "image":"https://m.media-amazon.com/images/I/51BxhiVoo6L._SY695_.jpg"
         },
         {
             "id":2,
-            "name":"Woodland G40777",
+            "name":"Woodland Men's Leather ",
             "brand":"Woodland",
             "category":"men",
-            "price":1800.99,
-            "image":"https://themewagon.github.io/stylish/images/card-item2.jpg"
+            "price":2990,
+            "image":"https://m.media-amazon.com/images/I/71ZF7fuGzIL._SY695_.jpg"
         },
         {
             "id":2,
             "name":"Red Tape Leather Slip-on",
             "brand":"Red Tape",
             "category":"men",
-            "price":1800.99,
-            "image":"https://themewagon.github.io/stylish/images/card-item2.jpg"
+            "price":1500,
+            "image":"https://m.media-amazon.com/images/I/71t3gJkVm-L._SY695_.jpgg"
         },
         {
             "id":2,
             "name":"Bata Men’s Floaters",
             "brand":"Bata",
             "category":"men",
-            "price":1800.99,
-            "image":"https://themewagon.github.io/stylish/images/card-item2.jpg"
+            "price":1300.98,
+            "image":"https://m.media-amazon.com/images/I/7156HUlSOmL._SX695_.jpg"
         },
         {
             "id":2,
             "name":"Clarks Tilden Cap",
             "brand":"Clarks",
             "category":"men",
-            "price":1800.99,
-            "image":"https://themewagon.github.io/stylish/images/card-item2.jpg"
+            "price":6540.99,
+            "image":"https://m.media-amazon.com/images/I/71QZZRLoHDL._SY695_.jpg"
         },
         {
             "id":2,
             "name":"Skechers Go Walk 6",
             "brand":"Skechers",
             "category":"men",
-            "price":1800.99,
-            "image":"https://themewagon.github.io/stylish/images/card-item2.jpg"
+            "price":3456.99,
+            "image":"https://m.media-amazon.com/images/I/71EkNYXAcvL._SX695_.jpg"
         },
         {
             "id":2,
             "name":"Vans Old Skool",
             "brand":"Reebok",
             "category":"men",
-            "price":1800.99,
-            "image":"https://themewagon.github.io/stylish/images/card-item2.jpg"
+            "price":1450,
+            "image":"https://m.media-amazon.com/images/I/611u-GBbWtL._SY695_.jpg"
         },
         {
             "id":2,
