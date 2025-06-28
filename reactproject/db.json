@@ -166,24 +166,24 @@
             "name":"Adidas Fortarun Kids",
             "brand":"Adidas Kids",
             "category":"kid",
-            "price":1800.99,
-            "image":"https://themewagon.github.io/stylish/images/card-item2.jpg"
+            "price":3246.99,
+            "image":"https://m.media-amazon.com/images/I/61LkWiKWEyL._AC_UL480_FMwebp_QL65_.jpg"
         },
         {
             "id":2,
             "name":"Crocs Kids Classic Clog",
             "brand":"Crocs",
             "category":"kid",
-            "price":1800.99,
-            "image":"https://themewagon.github.io/stylish/images/card-item2.jpg"
+            "price":2134,
+            "image":"https://m.media-amazon.com/images/I/413gUvC4YRL._AC_UL480_FMwebp_QL65_.jpg"
         },
         {
             "id":2,
-            "name":"Jimmy Choo Romy 100",
+            "name":"Skechers Girl Snap Sprints 2.0 Stars",
             "brand":"Skechers Kids",
             "category":"kid",
-            "price":1800.99,
-            "image":"https://themewagon.github.io/stylish/images/card-item2.jpg"
+            "price":2999.99,
+            "image":"https://m.media-amazon.com/images/I/71-ukNtxroL._SX695_.jpg"
         },
         {
             "id":2,
@@ -206,32 +206,40 @@
             "name":"Skechers S Lights",
             "brand":"Stride Rite",
             "category":"kid",
-            "price":1800.99,
-            "image":"https://themewagon.github.io/stylish/images/card-item2.jpg"
+            "price":6549,
+            "image":"https://m.media-amazon.com/images/I/61zhxHaxXuL._SY695_.jpg"
+        },
+        {
+            "id":2,
+            "name":"Skechers S Lights",
+            "brand":"Stride Rite",
+            "category":"kid",
+            "price":4649,
+            "image":"https://m.media-amazon.com/images/I/71N6ZftccbL._AC_UL480_FMwebp_QL65_.jpg"
         },
         {
             "id":2,
             "name":"Chicco Baby Sandals",
             "brand":"Chicco",
             "category":"kid",
-            "price":1800.99,
-            "image":"https://themewagon.github.io/stylish/images/card-item2.jpg"
+            "price":549,
+            "image":"https://m.media-amazon.com/images/I/61cbHl3ipcL._SY695_.jpg"
         },
         {
             "id":2,
             "name":"Liberty Kids Active Shoes",
             "brand":"Liberty",
             "category":"kid",
-            "price":1800.99,
-            "image":"https://themewagon.github.io/stylish/images/card-item2.jpg"
+            "price":999.99,
+            "image":"https://m.media-amazon.com/images/I/71CQmEIwaxL._SX695_.jpg"
         },
         {
             "id":2,
-            "name":"Puma kids ",
+            "name":"Puma Kids Wired Run PS Sneaker",
             "brand":"Puma Kids",
             "category":"kid",
-            "price":1800.99,
-            "image":"https://themewagon.github.io/stylish/images/card-item2.jpg"
+            "price":1798.99,
+            "image":"https://m.media-amazon.com/images/I/615WforiJWL._SY695_.jpg"
         }
 
         
