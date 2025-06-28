@@ -155,7 +155,7 @@
         },
         {
             "id":2,
-            "name":"Jimmy Choo Romy 100",
+            "name":"Nike Revolution 6 Kids",
             "brand":"Nike Kids",
             "category":"kid",
             "price":1800.99,
@@ -163,7 +163,7 @@
         },
         {
             "id":2,
-            "name":"Jimmy Choo Romy 100",
+            "name":"Adidas Fortarun Kids",
             "brand":"Adidas Kids",
             "category":"kid",
             "price":1800.99,
@@ -171,7 +171,7 @@
         },
         {
             "id":2,
-            "name":"Jimmy Choo Romy 100",
+            "name":"Crocs Kids Classic Clog",
             "brand":"Crocs",
             "category":"kid",
             "price":1800.99,
@@ -187,8 +187,48 @@
         },
         {
             "id":2,
-            "name":"Jimmy Choo Romy 100",
+            "name":"Bata Black School Shoes",
             "brand":"Bata Kids",
+            "category":"kid",
+            "price":1800.99,
+            "image":"https://themewagon.github.io/stylish/images/card-item2.jpg"
+        },
+        {
+            "id":2,
+            "name":"Clarks Emery Dot",
+            "brand":"Clarks Kids",
+            "category":"kid",
+            "price":1800.99,
+            "image":"https://themewagon.github.io/stylish/images/card-item2.jpg"
+        },
+        {
+            "id":2,
+            "name":"Skechers S Lights",
+            "brand":"Stride Rite",
+            "category":"kid",
+            "price":1800.99,
+            "image":"https://themewagon.github.io/stylish/images/card-item2.jpg"
+        },
+        {
+            "id":2,
+            "name":"Chicco Baby Sandals",
+            "brand":"Chicco",
+            "category":"kid",
+            "price":1800.99,
+            "image":"https://themewagon.github.io/stylish/images/card-item2.jpg"
+        },
+        {
+            "id":2,
+            "name":"Liberty Kids Active Shoes",
+            "brand":"Liberty",
+            "category":"kid",
+            "price":1800.99,
+            "image":"https://themewagon.github.io/stylish/images/card-item2.jpg"
+        },
+        {
+            "id":2,
+            "name":"Jimmy Choo Romy 100",
+            "brand":"Puma Kids",
             "category":"kid",
             "price":1800.99,
             "image":"https://themewagon.github.io/stylish/images/card-item2.jpg"
