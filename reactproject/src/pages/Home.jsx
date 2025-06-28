@@ -4,6 +4,10 @@ import Carousel from 'react-bootstrap/Carousel';
 import img1 from "../images/Shoestem.jpg"
 import img2 from "../images/shoes2.jpg"
 import img3 from "../images/shoes3.jpg"
+
+import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
+
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 
@@ -19,7 +23,25 @@ const Home=()=>{
    loadData();
   },[])
 
-  
+  const ans=mydata.map((key)=>{
+    return(
+      <>
+         <Card style={{ width: '18rem' }}>
+      
+      <Card.Body>
+        <Card.Title>{key.image}</Card.Title>
+        <Card.Text>
+          Name:{key.name}<br/>
+          Brand:{key.brand}<br/>
+          Category:{key.category}<br/>
+          Price:{key.price}<br/>
+        </Card.Text>
+        <Button variant="primary">Add To Cart</Button>
+      </Card.Body>
+    </Card>
+      </>
+    )
+  })
    return(
     <>
      <Carousel >
@@ -48,8 +70,10 @@ const Home=()=>{
       </Carousel.Item>
     </Carousel>
 
-
-
+{/*==============================================================================================================================================*/}
+  <div>
+    {ans}
+  </div>
     </>
    )
 }
