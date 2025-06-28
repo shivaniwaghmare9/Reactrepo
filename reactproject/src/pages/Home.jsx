@@ -4,7 +4,22 @@ import Carousel from 'react-bootstrap/Carousel';
 import img1 from "../images/Shoestem.jpg"
 import img2 from "../images/shoes2.jpg"
 import img3 from "../images/shoes3.jpg"
+import { useEffect, useState } from 'react';
+import axios from 'axios';
+
 const Home=()=>{
+  const[mydata,setMydata]=useState([])
+  const loadData=async()=>{
+    let api="http://localhost:3000/products";
+    const response=await axios.get(api);
+    setMydata(response.data);
+    console.log(response.data)
+  }
+  useEffect(()=>{
+   loadData();
+  },[])
+
+  
    return(
     <>
      <Carousel >
@@ -32,6 +47,9 @@ const Home=()=>{
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
+
+
+
     </>
    )
 }
