@@ -1,0 +1,111 @@
+
+{
+    "products":[
+        {
+            "id":1,
+            "name":"Nike Air Max 270 React",
+            "brand":"Nike",
+            "category":"men",
+            "price":1600.55,
+            "image":"https://themewagon.github.io/stylish/images/card-item2.jpg"
+        },
+        {
+            "id":2,
+            "name":"Adidas Ultraboost 22",
+            "brand":"Adidas",
+            "category":"men",
+            "price":1800.99,
+            "image":"https://themewagon.github.io/stylish/images/card-item2.jpg"
+        },
+        {
+            "id":2,
+            "name":"Jimmy Choo Romy 100",
+            "brand":"Jimmy Choo",
+            "category":"women",
+            "price":1800.99,
+            "image":"https://themewagon.github.io/stylish/images/card-item2.jpg"
+        },
+        {
+            "id":2,
+            "name":"Jimmy Choo Romy 100",
+            "brand":"Puma",
+            "category":"women",
+            "price":1800.99,
+            "image":"https://themewagon.github.io/stylish/images/card-item2.jpg"
+        },
+        {
+            "id":2,
+            "name":"Jimmy Choo Romy 100",
+            "brand":"Puma",
+            "category":"men",
+            "price":1800.99,
+            "image":"https://themewagon.github.io/stylish/images/card-item2.jpg"
+        },
+        {
+            "id":2,
+            "name":"Jimmy Choo Romy 100",
+            "brand":"Kids Puma",
+            "category":"kid",
+            "price":1800.99,
+            "image":"https://themewagon.github.io/stylish/images/card-item2.jpg"
+        },
+        {
+            "id":2,
+            "name":"Jimmy Choo Romy 100",
+            "brand":"Steve Madden",
+            "category":"women",
+            "price":1800.99,
+            "image":"https://themewagon.github.io/stylish/images/card-item2.jpg"
+        },
+        {
+            "id":2,
+            "name":"Jimmy Choo Romy 100",
+            "brand":"Clarks",
+            "category":"women",
+            "price":1800.99,
+            "image":"https://themewagon.github.io/stylish/images/card-item2.jpg"
+        },
+        {
+            "id":2,
+            "name":"Jimmy Choo Romy 100",
+            "brand":"Skechers ",
+            "category":"women",
+            "price":1800.99,
+            "image":"https://themewagon.github.io/stylish/images/card-item2.jpg"
+        },
+        {
+            "id":2,
+            "name":"Jimmy Choo Romy 100",
+            "brand":"Aldo",
+            "category":"women",
+            "price":1800.99,
+            "image":"https://themewagon.github.io/stylish/images/card-item2.jpg"
+        },
+        {
+            "id":2,
+            "name":"Jimmy Choo Romy 100",
+            "brand":"Zara",
+            "category":"women",
+            "price":1800.99,
+            "image":"https://themewagon.github.io/stylish/images/card-item2.jpg"
+        },
+        {
+            "id":2,
+            "name":"Jimmy Choo Romy 100",
+            "brand":"Adidas",
+            "category":"men",
+            "price":1800.99,
+            "image":"https://themewagon.github.io/stylish/images/card-item2.jpg"
+        },
+        {
+            "id":2,
+            "name":"Jimmy Choo Romy 100",
+            "brand":"Puma",
+            "category":"men",
+            "price":1800.99,
+            "image":"https://themewagon.github.io/stylish/images/card-item2.jpg"
+        }
+        
+
+    ]
+}
