@@ -5,9 +5,6 @@ import Table from 'react-bootstrap/Table';
 
 
 const Display=()=>{
-
-  
-    
     const[myData,setMydata]=useState([]);
     const loadData=async()=>{
         let api="http://localhost:3000/records";
@@ -19,7 +16,7 @@ const Display=()=>{
         loadData();
     },[])
 
-    const [currentPage, setCurrentPage]= useState(1);
+  const [currentPage, setCurrentPage]= useState(1);
   const recordsPerPage=3;
   const lastIndex= currentPage*recordsPerPage;
   const firstIndex= lastIndex-recordsPerPage;

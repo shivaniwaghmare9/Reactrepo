@@ -1,25 +1,11 @@
 {
   "records": [
     {
-      "id": "1",
-      "name": "shivani",
-      "city": "Bhopal",
-      "post": "CEO",
-      "salary": 46772
-    },
-    {
       "id": "1774",
       "name": "shreyaa",
       "city": "pune",
       "post": "assistant",
       "salary": "34000"
-    },
-    {
-      "id": "1",
-      "name": "shivani",
-      "city": "Bhopal",
-      "post": "CEO",
-      "salary": 46772
     },
     {
       "id": "1774",
@@ -50,11 +36,25 @@
       "salary": "45000"
     },
     {
-      "id": "55d6",
-      "name": "ram",
-      "city": "pune",
+      "id": "6b31",
+      "name": "aarti",
+      "city": "indore",
+      "post": "teacher",
+      "salary": "34000"
+    },
+    {
+      "id": "d989",
+      "name": "bharti",
+      "city": "banglore",
+      "post": "assistant",
+      "salary": "68000"
+    },
+    {
+      "id": "8b25",
+      "name": "cvani",
+      "city": "betul",
       "post": "developer",
-      "salary": "56402"
+      "salary": "879065"
     }
   ]
 }

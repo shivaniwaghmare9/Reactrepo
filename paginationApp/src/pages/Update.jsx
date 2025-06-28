@@ -1,26 +1,26 @@
 
 import axios from "axios";
 import { useEffect, useState } from "react";
+import Table from 'react-bootstrap/Table';
 
 const Update=()=>{
     const [mydata,setMydata] = useState([]);
-    
 
-    const onload=async()=>{
-    let api = "http://localhost:3000/student"
+    const loadData=async()=>{
+    let api = "http://localhost:3000/records"
     let res = await axios.get(api);
     setMydata(res.data)
     console.log(res.data)
     }
 
     useEffect(()=>{
-        onload()
+        loadData()
     },[])
 
     const sortdata=()=>{
       let datasort = [...mydata].sort((a,b)=>{
-        const nameA = a.Name.toLowerCase();
-        const nameB = b.Name.toLowerCase();
+        const nameA = a.name.toLowerCase();
+        const nameB = b.name.toLowerCase();
         if(nameA < nameB){
             return -1;
         }else{
@@ -31,11 +31,14 @@ const Update=()=>{
       console.log(datasort);
     }  
     
+
     const del=async(id)=>{
         let api =`http://localhost:3000/records/${id}`
         let res = await axios.delete(api);
         alert("data has deleted")
+        loadData(); 
     }
+
    let sno=0;
     const Record = mydata.map((item)=>{
         sno++;
@@ -46,11 +49,12 @@ const Update=()=>{
             <td>{item.city}</td>
             <td>{item.post}</td>
             <td>{item.salary}</td>
-            <td><button>Edit</button></td>
-            <td><button onClick={()=>del(item.id)}>Delete</button></td>
+            <td><span>Edit</span></td>
+            <td><span onClick={()=>del(item.id)}>Delete</span></td>
           </tr>
         )
     })
+    
     return(
         <>
         <h4>Update page</h4>
@@ -62,6 +66,8 @@ const Update=()=>{
                   <th>City</th>
                   <th>Post</th>
                   <th>Salary</th>
+                  <th>Upadte</th>
+                  <th>Delete</th>
                 </tr>
               </thead>
               <tbody>
