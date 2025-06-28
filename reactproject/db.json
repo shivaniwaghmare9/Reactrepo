@@ -152,6 +152,46 @@
             "category":"men",
             "price":1800.99,
             "image":"https://themewagon.github.io/stylish/images/card-item2.jpg"
+        },
+        {
+            "id":2,
+            "name":"Jimmy Choo Romy 100",
+            "brand":"Nike Kids",
+            "category":"kid",
+            "price":1800.99,
+            "image":"https://themewagon.github.io/stylish/images/card-item2.jpg"
+        },
+        {
+            "id":2,
+            "name":"Jimmy Choo Romy 100",
+            "brand":"Adidas Kids",
+            "category":"kid",
+            "price":1800.99,
+            "image":"https://themewagon.github.io/stylish/images/card-item2.jpg"
+        },
+        {
+            "id":2,
+            "name":"Jimmy Choo Romy 100",
+            "brand":"Crocs",
+            "category":"kid",
+            "price":1800.99,
+            "image":"https://themewagon.github.io/stylish/images/card-item2.jpg"
+        },
+        {
+            "id":2,
+            "name":"Jimmy Choo Romy 100",
+            "brand":"Skechers Kids",
+            "category":"kid",
+            "price":1800.99,
+            "image":"https://themewagon.github.io/stylish/images/card-item2.jpg"
+        },
+        {
+            "id":2,
+            "name":"Jimmy Choo Romy 100",
+            "brand":"Bata Kids",
+            "category":"kid",
+            "price":1800.99,
+            "image":"https://themewagon.github.io/stylish/images/card-item2.jpg"
         }
 
         
