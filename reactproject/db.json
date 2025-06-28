@@ -27,7 +27,7 @@
         },
         {
             "id":2,
-            "name":"Jimmy Choo Romy 100",
+            "name":"Puma ",
             "brand":"Puma",
             "category":"women",
             "price":1800.99,
@@ -51,7 +51,7 @@
         },
         {
             "id":2,
-            "name":"Jimmy Choo Romy 100",
+            "name":"Dr. Martens 1460",
             "brand":"Steve Madden",
             "category":"women",
             "price":1800.99,
@@ -59,7 +59,7 @@
         },
         {
             "id":2,
-            "name":"Jimmy Choo Romy 100",
+            "name":"Clarks Linvale Jerica",
             "brand":"Clarks",
             "category":"women",
             "price":1800.99,
@@ -67,7 +67,7 @@
         },
         {
             "id":2,
-            "name":"Jimmy Choo Romy 100",
+            "name":"Converse Chuck Taylor All Star",
             "brand":"Skechers ",
             "category":"women",
             "price":1800.99,
@@ -75,7 +75,7 @@
         },
         {
             "id":2,
-            "name":"Jimmy Choo Romy 100",
+            "name":"Fashion-forward formal ",
             "brand":"Aldo",
             "category":"women",
             "price":1800.99,
