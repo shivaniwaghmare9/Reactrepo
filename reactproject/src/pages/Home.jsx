@@ -27,11 +27,10 @@ const Home=()=>{
     return(
       <>
          <Card style={{ width: '18rem' }}>
-      
+        <Card.Img variant="top" src={key.image}  id="img"/>
       <Card.Body>
-        <Card.Title>{key.image}</Card.Title>
+        <Card.Title>Name:{key.name}</Card.Title>
         <Card.Text>
-          Name:{key.name}<br/>
           Brand:{key.brand}<br/>
           Category:{key.category}<br/>
           Price:{key.price}<br/>
@@ -44,7 +43,7 @@ const Home=()=>{
   })
    return(
     <>
-     <Carousel >
+     <Carousel className='outlet' >
       <Carousel.Item>
         <img src={img1} alt="web" width="100%" height="600px"/>
         <Carousel.Caption>
@@ -71,7 +70,7 @@ const Home=()=>{
     </Carousel>
 
 {/*==============================================================================================================================================*/}
-  <div>
+  <div id="carddata">
     {ans}
   </div>
     </>
