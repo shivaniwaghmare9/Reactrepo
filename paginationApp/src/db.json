@@ -48,6 +48,13 @@
       "city": "indore",
       "post": "developer",
       "salary": "45000"
+    },
+    {
+      "id": "55d6",
+      "name": "ram",
+      "city": "pune",
+      "post": "developer",
+      "salary": "56402"
     }
   ]
 }

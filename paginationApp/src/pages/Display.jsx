@@ -6,17 +6,7 @@ import Table from 'react-bootstrap/Table';
 
 const Display=()=>{
 
-  const sortdata=()=>{
-      let datasort = [...mydata].sort((a,b)=>{
-        if(a.Name < b.Name){
-            return -1;
-        }else if( a.Name > b.Name){
-            return 1;
-        }
-      })
-      setMydata(datasort);
-      console.log(datasort);
-    }
+  
     
     const[myData,setMydata]=useState([]);
     const loadData=async()=>{
@@ -74,7 +64,17 @@ function nextPage()
    }
 }
 
-    
+    const sortdata=()=>{
+      let datasort = [...myData].sort((a,b)=>{
+        if(a.Name < b.Name){
+            return -1;
+        }else if( a.Name > b.Name){
+            return 1;
+        }
+      })
+      setMydata(datasort);
+      console.log(datasort);
+    }
     return(
         <>
          <h1 id="head">Welcome to display page!!!</h1>
