@@ -14,7 +14,7 @@ body{
 
 .header{
     height: 60px;
-    background-color: rgb(55, 60, 220);
+    background-color: rgb(10, 72, 241);
 }
 .header div{
     display: flex;
@@ -39,6 +39,8 @@ body{
 .me-auto{
     display: flex;
     margin-left: 20%;
+    gap:20px;
+    font-size: 20px;
 }
 
 
