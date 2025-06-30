@@ -10,9 +10,8 @@ const Header=()=>{
     
     return(
         <>
-         <div className="header">
-            <div>
-            <Form inline>
+    <div className="header">
+         <div id="input">
         <Row>
           <Col xs="auto">
             <Form.Control
@@ -25,17 +24,16 @@ const Header=()=>{
             <Button type="submit">Submit</Button>
           </Col>
         </Row>
-      </Form>
-    </div>
-    <div>
+        
+      
+       </div>
+            <div className='icon'>
         
               <h4><FaRegUserCircle /> <br/>profile</h4>
               <h4><FaShoppingCart /><br/>cart</h4> 
              
-    </div> 
-            
-             
-           </div>
+            </div> 
+    </div>
         </>
     )
 }

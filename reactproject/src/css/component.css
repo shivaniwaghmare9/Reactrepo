@@ -15,19 +15,23 @@ body{
 .header{
     height: 60px;
     background-color: rgb(10, 72, 241);
-}
-.header{
     display: flex;
-    gap: 30px;
     justify-content: center;
-    /* right: 2%;
-    margin-left: 85%; */
-    color: aliceblue;
+    gap: 40px;
 }
-.mr-sm-2{
-    width: 100%;
-    
+#input{
+    /* width:50%; */
+    border:1px solid black;
+    display:flex;
+    align-items:center;
+    justify-content:center;
 }
+.header .icon{
+    display: flex;
+    margin-left: 30%;
+    justify-content: space-between;
+}
+
 /*==============================================================================IMG===============================================================*/
 .imgnav{
    width:100px; 
