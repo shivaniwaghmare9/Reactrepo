@@ -3,7 +3,7 @@
 /*============================================================HOME===========================================================================*/
 #carddata{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 40px;
     margin-top: 40px;
