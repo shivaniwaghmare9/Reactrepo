@@ -7,15 +7,15 @@ import img4 from "../images/images.jpeg"
 const Topnav=()=>{
     return(
         <>
-         <Navbar bg="dark" data-bs-theme="dark" id="head">
+         <Navbar bg="light" data-bs-theme="light" id="head">
         <Container>
           <Navbar.Brand href="#home"><img src={img4} alt="icon"  className='imgnav'/></Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link as={Link} to="home">Home</Nav.Link>
-            <Nav.Link as={Link} to="men">Men</Nav.Link>
-            <Nav.Link as={Link} to="women">women</Nav.Link>
-            <Nav.Link as={Link} to="kid">Kid</Nav.Link>
-            <Nav.Link as={Link} to="search">Search</Nav.Link>
+            <Nav.Link as={Link} to="home" id="content1">Home</Nav.Link>
+            <Nav.Link as={Link} to="men" id="content">Men</Nav.Link>
+            <Nav.Link as={Link} to="women" id="content">women</Nav.Link>
+            <Nav.Link as={Link} to="kid" id="content">Kid</Nav.Link>
+            <Nav.Link as={Link} to="search" id="content">Search</Nav.Link>
             
           </Nav>
         </Container>
