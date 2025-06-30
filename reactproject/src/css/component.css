@@ -16,12 +16,17 @@ body{
     height: 60px;
     background-color: rgb(10, 72, 241);
 }
-.header div{
+.header{
     display: flex;
     gap: 30px;
-    right: 2%;
-    margin-left: 85%;
+    justify-content: center;
+    /* right: 2%;
+    margin-left: 85%; */
     color: aliceblue;
+}
+.mr-sm-2{
+    width: 100%;
+    
 }
 /*==============================================================================IMG===============================================================*/
 .imgnav{
