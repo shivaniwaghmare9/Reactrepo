@@ -17,8 +17,8 @@ const Header=()=>{
        </div>
             <div className='icon'>
         
-              <h4><FaRegUserCircle /> <br/>profile</h4>
-              <h4><FaShoppingCart /><br/>cart</h4> 
+              <h5><FaRegUserCircle /> <br/>profile</h5>
+              <h5><FaShoppingCart /><br/>cart</h5> 
              
             </div> 
     </div>

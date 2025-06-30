@@ -13,8 +13,8 @@ body{
 }/*=========================================================================HEADER=============================================================*/
 
 .header{
-    height: 60px;
-    background-color: rgb(10, 72, 241);
+    height: 70px;
+    background-color: azure;
     display: flex;
     justify-content: space-between;
 }
@@ -29,19 +29,23 @@ body{
  .icon{
     display: flex;
     justify-content: space-between;
+    align-items:center;
     gap: 30px;
     color: aliceblue;
+    margin-right: 3%;
 }
 .inp{
     width: 60%;
-    height: 40px;
+    height: 45px;
     border-radius: 10px;
     border: none;
 }
 #subbtn{
-    background-color: palevioletred;
+    margin-left: 3%;
+    background-color:rgb(75, 180, 245);
     height: 40px;
-    border-radius: 10px;
+    color: black;
+    
 }
 /*==============================================================================IMG===============================================================*/
 .imgnav{
@@ -60,10 +64,11 @@ body{
     display: flex;
     margin-left: 20%;
     gap:20px;
-    font-size: 20px;
+    font-size: 15px;
 }
 #head{
     height: 70px;
+    background-color: red;
 }
 
 /*===============================================(Footer Component)=======================================================================================================================*/
