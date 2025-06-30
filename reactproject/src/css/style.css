@@ -2,11 +2,20 @@
 
 /*============================================================HOME===========================================================================*/
 #carddata{
-    
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    gap: 40px;
 }
 #img{
     height: 250px;
+    width: 250px;
+    
+}
+#card{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-direction: column;
 }

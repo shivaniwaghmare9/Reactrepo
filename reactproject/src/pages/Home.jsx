@@ -26,7 +26,7 @@ const Home=()=>{
   const ans=mydata.map((key)=>{
     return(
       <>
-         <Card style={{ width: '20rem' }}>
+         <Card id="card">
         <Card.Img variant="top" src={key.image}  id="img"/>
       <Card.Body>
         <Card.Title>Name:{key.name}</Card.Title>
