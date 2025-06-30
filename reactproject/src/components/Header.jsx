@@ -12,20 +12,8 @@ const Header=()=>{
         <>
     <div className="header">
          <div id="inptag">
-        <Row>
-          <Col xs="auto">
-            <Form.Control
-              type="text"
-              placeholder="Search"
-              className=" mr-sm-2"
-            />
-          </Col>
-          <Col xs="auto">
-            <Button type="submit" id="subbtn">Submit</Button>
-          </Col>
-        </Row>
-        
-      
+        <input type="text" placeholder="Search" className="inp"/>
+        <Button type="submit" id="subbtn">Submit</Button>
        </div>
             <div className='icon'>
         
