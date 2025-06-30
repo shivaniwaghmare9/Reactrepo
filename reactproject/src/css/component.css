@@ -42,14 +42,12 @@ body{
 }
 #subbtn{
     margin-left: 3%;
-    background-color:rgb(200, 97, 133);
+    background-color:rgb(11, 11, 11);
     height: 40px;
-    color: black;
+    color: rgb(240, 233, 233);
     box-shadow: none;
 }
-#carticon{
-    background-color: indianred;
-}
+
 /*==============================================================================IMG===============================================================*/
 .imgnav{
    width:100px; 

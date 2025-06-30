@@ -17,7 +17,7 @@ const Header=()=>{
             <div className='icon'>
         
               <h5><FaRegUserCircle /> <br/>profile</h5>
-              <h5><span style={{color:"indianred",position:"absolute",zIndex:"2"}}>{cartLength}</span><br/><FaShoppingCart  id="carticon"/></h5> 
+              <h5><span style={{color:"indianred"}}>{cartLength}</span><br/><FaShoppingCart  id="carticon"/></h5> 
              
             </div> 
     </div>
