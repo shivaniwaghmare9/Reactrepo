@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 import Layout from "./Layout"
 import Home from "./pages/Home"
+import { ToastContainer } from "react-toastify"
 
 const App=()=>{
   return(
@@ -13,6 +14,7 @@ const App=()=>{
             </Route>
          </Routes>
      </BrowserRouter>
+     <ToastContainer/>
     </>
   )
 }

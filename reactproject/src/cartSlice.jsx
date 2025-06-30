@@ -7,17 +7,17 @@ const cartSlice=createSlice({
     },
     reducers:{
         addCart:(state,actions)=>{
-            const data=state.cart.filter((key)=>key.id==actions.payload.id)
-            if(data.length>=1)
+          const mydata= state.cart.filter((key)=>key.id==actions.payload.id);
+            if (mydata.length>=1)
             {
-                toast.warning("product already added")
+               toast.error("This Product Aleready Added!!");
             }
-            else{
-             state.cart.push(actions.payload)
+            else 
+            {
+                state.cart.push(actions.payload);
             }
-            
-            
-        }
+    
+    }
     }
 })
 export const{addCart}=cartSlice.actions;
