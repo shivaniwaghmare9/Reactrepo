@@ -16,22 +16,29 @@ body{
     height: 60px;
     background-color: rgb(10, 72, 241);
     display: flex;
-    justify-content: center;
-    gap: 40px;
+    justify-content: space-between;
 }
-#input{
-    /* width:50%; */
+#inptag{
+    width: 500px;
     border:1px solid black;
     display:flex;
     align-items:center;
-    justify-content:center;
-}
-.header .icon{
-    display: flex;
     margin-left: 30%;
-    justify-content: space-between;
+    justify-content:center;
+    
 }
-
+ .icon{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    color: aliceblue;
+}
+#input .mr-sm-2{
+    
+}
+#subbtn{
+    background-color: palevioletred;
+}
 /*==============================================================================IMG===============================================================*/
 .imgnav{
    width:100px; 

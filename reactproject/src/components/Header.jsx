@@ -11,7 +11,7 @@ const Header=()=>{
     return(
         <>
     <div className="header">
-         <div id="input">
+         <div id="inptag">
         <Row>
           <Col xs="auto">
             <Form.Control
@@ -21,7 +21,7 @@ const Header=()=>{
             />
           </Col>
           <Col xs="auto">
-            <Button type="submit">Submit</Button>
+            <Button type="submit" id="subbtn">Submit</Button>
           </Col>
         </Row>
         
