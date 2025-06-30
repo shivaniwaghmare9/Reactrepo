@@ -15,7 +15,7 @@
             "brand":"Adidas",
             "category":"men",
             "price":1999.99,
-            "image":"https://m.media-amazon.com/images/I/71kfO4VXDFL._SX695_.jpg"
+            "image":"https://themewagon.github.io/stylish/images/card-item7.jpg"
         },
         {
             "id":2,
@@ -23,7 +23,7 @@
             "brand":"Jimmy Choo",
             "category":"women",
             "price":1800.99,
-            "image":"https://themewagon.github.io/stylish/images/card-item2.jpg"
+            "image":"https://themewagon.github.io/stylish/images/card-item5.jpg"
         },
         {
             "id":2,
@@ -31,7 +31,15 @@
             "brand":"Puma",
             "category":"women",
             "price":1800.99,
-            "image":"https://themewagon.github.io/stylish/images/card-item2.jpg"
+            "image":"https://themewagon.github.io/stylish/images/card-item4.jpg"
+        },
+        {
+            "id":1,
+            "name":"Nike Air Max 270 React",
+            "brand":"Nike",
+            "category":"men",
+            "price":4657.55,
+            "image":"https://themewagon.github.io/stylish/images/card-item3.jpg"
         },
         {
             "id":2,
@@ -39,7 +47,7 @@
             "brand":"Puma",
             "category":"men",
             "price":1800.99,
-            "image":"https://themewagon.github.io/stylish/images/card-item2.jpg"
+            "image":"https://themewagon.github.io/stylish/images/card-item6.jpg"
         },
         {
             "id":2,
@@ -62,24 +70,32 @@
             "name":"Clarks Linvale Jerica",
             "brand":"Clarks",
             "category":"women",
-            "price":1800.99,
-            "image":"https://themewagon.github.io/stylish/images/card-item2.jpg"
+            "price":5342,
+            "image":"https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSzQg3qkbFnMmjNy16kHrm48KeT7Z08y-tKe6QKdvWfo5d2zwae8kUuvYLoVXdisDPU97fIRg41_Ae0to2gzbG3e7f_TbtqyfruInMORv0M3PZJBtSjDGKoOZ5ufjLuHWEnmGZki9cWqw&usqp=CAc"
+        },
+        {
+            "id":2,
+            "name":"Clarks Linvale Jerica",
+            "brand":"Clarks",
+            "category":"women",
+            "price":2789,
+            "image":"https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQgJt05n7jlaFZBrwL5x728TsppVuFtO3DnCeNifyLVpKtlgQlqLVjjXAB0M8K6y6ZyLn_7S8z_ax-XcwfaJjOhdv_--w-cQ9CHbbvnMngT_nPnm29Qjd-pYMdi6ML2rlUZ4iqgEA&usqp=CAc"
         },
         {
             "id":2,
             "name":"Converse Chuck Taylor All Star",
             "brand":"Skechers ",
             "category":"women",
-            "price":1800.99,
-            "image":"https://themewagon.github.io/stylish/images/card-item2.jpg"
+            "price":3078,
+            "image":"https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSO-j4RD-n928zIH1R-Xq8Y5OPUkavL7IpPr1H3ONpcC1xRMifB9dIBIGogRf2a36lP8jRPYJs5oMHy65uzNS01J3idwobUYBEcU4keTrAxoEoZDRol1ITvQKk"
         },
         {
             "id":2,
             "name":"Fashion-forward formal ",
             "brand":"Aldo",
             "category":"women",
-            "price":1800.99,
-            "image":"https://themewagon.github.io/stylish/images/card-item2.jpg"
+            "price":8999,
+            "image":"https://img.tatacliq.com/images/i23//437Wx649H/MP000000025812618_437Wx649H_202503250047231.jpeg"
         },
         {
             "id":2,
@@ -87,7 +103,7 @@
             "brand":"Zara",
             "category":"women",
             "price":1800.99,
-            "image":"https://themewagon.github.io/stylish/images/card-item2.jpg"
+            "image":"https://themewagon.github.io/stylish/images/card-item10.jpg"
         },
         {
             "id":2,
@@ -119,7 +135,7 @@
             "brand":"Red Tape",
             "category":"men",
             "price":1500,
-            "image":"https://m.media-amazon.com/images/I/71t3gJkVm-L._SY695_.jpgg"
+            "image":"https://themewagon.github.io/stylish/images/card-item8.jpg"
         },
         {
             "id":2,
@@ -215,7 +231,7 @@
             "brand":"Stride Rite",
             "category":"kid",
             "price":4649,
-            "image":"https://m.media-amazon.com/images/I/71N6ZftccbL._AC_UL480_FMwebp_QL65_.jpg"
+            "image":"https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/a/6a6afa4310194L_WLM_4.jpg?tr=w-512"
         },
         {
             "id":2,
@@ -231,7 +247,7 @@
             "brand":"Liberty",
             "category":"kid",
             "price":999.99,
-            "image":"https://m.media-amazon.com/images/I/71CQmEIwaxL._SX695_.jpg"
+            "image":"https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/a/0acd3fdBASTIAN-2M_SBLUE_2.jpg?tr=w-512"
         },
         {
             "id":2,
