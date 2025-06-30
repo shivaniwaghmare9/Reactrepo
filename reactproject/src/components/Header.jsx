@@ -1,13 +1,12 @@
 
 import Button from 'react-bootstrap/Button';
-import Form from 'react-bootstrap/Form';
-import Col from 'react-bootstrap/Col';
-import Row from 'react-bootstrap/Row';
 
 import { FaShoppingCart } from "react-icons/fa";
 import { FaRegUserCircle } from "react-icons/fa";
+import { useSelector } from 'react-redux';
 const Header=()=>{
-    
+    const cartData=useSelector(state=>state.mycart.cart);
+    const cartLength=cartData.length;
     return(
         <>
     <div className="header">
@@ -18,7 +17,7 @@ const Header=()=>{
             <div className='icon'>
         
               <h5><FaRegUserCircle /> <br/>profile</h5>
-              <h5><FaShoppingCart /><br/>cart</h5> 
+              <h5>{cartLength}<FaShoppingCart /><br/>cart</h5> 
              
             </div> 
     </div>
