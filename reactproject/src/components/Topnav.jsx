@@ -13,7 +13,7 @@ const Topnav=()=>{
           <Nav className="me-auto">
             <Nav.Link as={Link} to="home" id="content1">Home</Nav.Link>
             <Nav.Link as={Link} to="men" id="content">Men</Nav.Link>
-            <Nav.Link as={Link} to="women" id="content">women</Nav.Link>
+            <Nav.Link as={Link} to="women" id="content">Women</Nav.Link>
             <Nav.Link as={Link} to="kid" id="content">Kid</Nav.Link>
             <Nav.Link as={Link} to="search" id="content">Search</Nav.Link>
             

@@ -81,9 +81,11 @@ body{
 /*===============================================(Footer Component)=======================================================================================================================*/
 
 #delivery{
-    /*border: 1px solid black;*/
+    /* border: 1px solid black; */
     margin-top: 40px;
-    background-color: rgba(243, 5, 85, 0.103);
+    /* background-color: rgba(243, 5, 85, 0.103); */
+    background-image: url("../images/footer up.webp");
+    background-size: cover;
     margin: 2rem;
 }
 #delivery .inform {
@@ -95,6 +97,7 @@ body{
     align-items: center;
     gap: 50px;
     padding: 3rem;
+    
 }
 #delivery .inform div{
     width: 700px;
@@ -105,6 +108,7 @@ body{
     align-items: center;
    flex-direction: column;
    font-size: 15px;
+   color: aliceblue;
 }
 #icons{
     font-size: 50px;
