@@ -77,7 +77,7 @@ const Home=()=>{
     </Carousel>
 {/*=============================================================================================================================================================================================*/}
  <div id="icon">
-      <div>
+      <div id="box1">
         <h3><FaTruck id="icons2"/>FREE DELIVERY</h3>
         <p>Consectetur adipi elit lorem ipsum dolor sit amet.</p>
       </div>
