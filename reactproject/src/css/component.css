@@ -83,13 +83,11 @@ body{
 #delivery{
     /* border: 1px solid black; */
     margin-top: 40px;
-    /* background-color: rgba(243, 5, 85, 0.103); */
-    background-image: url("../images/footer up.webp");
-    background-size: cover;
+    background-color: rgba(243, 5, 85, 0.103);
     margin: 2rem;
 }
 #delivery .inform {
-    width: 100%;
+   width: 100%;
     height:  60vh;
    /* border: 1px solid black; */
     display: flex;
@@ -98,6 +96,7 @@ body{
     gap: 50px;
     padding: 3rem;
     
+    /* background-image: url("../images/footer up.webp"); */
 }
 #delivery .inform div{
     width: 700px;
@@ -108,7 +107,7 @@ body{
     align-items: center;
    flex-direction: column;
    font-size: 15px;
-   color: aliceblue;
+   
 }
 #icons{
     font-size: 50px;
