@@ -9,7 +9,7 @@
     margin-top: 40px;
 }
 #img{
-    height: 250px;
+    height: 300px;
     width: 300px;
     
 }
@@ -26,11 +26,9 @@
   background-color: black;
   color: aliceblue;
 }
- #div:hover {
-  transform: translateY(-5px); /* Thoda upar le jaata hai */
-  cursor: pointer;            /* Cursor ko pointer banata hai */
-  transition: transform 0.3s ease; /* Smooth animation ke liye */
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+ .cartbtn:hover{
+  background-color: aliceblue;
+  color: black;
 }
 #card {
   transition: transform 0.3s ease;
@@ -40,6 +38,7 @@
 
 #card:hover {
   transform: perspective(600px) translateZ(20px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 /*===========================================================================================================================================*/
 .carousel-control-prev,
@@ -67,6 +66,12 @@
     gap: 10px;
     background-color: rgba(223, 165, 184, 0.564);
     margin-top: 40px;
+}
+#icon div:hover {
+  transform: translateY(-5px); /* Thoda upar le jaata hai */
+  cursor: pointer;            /* Cursor ko pointer banata hai */
+  transition: transform 0.3s ease; /* Smooth animation ke liye */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 #icon div{
     width: 350px;
