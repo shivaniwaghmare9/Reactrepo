@@ -3,6 +3,8 @@ import Layout from "./Layout"
 import Home from "./pages/Home"
 import { ToastContainer } from "react-toastify"
 import Men from "./pages/Men"
+import Women from "./pages/Women"
+import Kid from "./pages/Kid"
 
 const App=()=>{
   return(
@@ -13,6 +15,8 @@ const App=()=>{
             <Route index element={<Home/>}/>
             <Route path="home" element={<Home/>}/>
             <Route path="men" element={<Men/>}/>
+            <Route path="women" element={<Women/>}/>
+            <Route path="kid" element={<Kid/>}/>
             </Route>
          </Routes>
      </BrowserRouter>
