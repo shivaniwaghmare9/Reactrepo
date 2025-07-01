@@ -43,7 +43,7 @@ const Home=()=>{
           Category:{key.category}<br/>
           Price:{key.price}<br/>
         </Card.Text>
-        <Button variant="primary" onClick={()=>{dispatch(addCart({id:key.id,name:key.name,image:key.image,brand:key.brand,category:key.category,price:key.price}))}}>Add To Cart</Button>
+        <Button variant="primary" onClick={()=>{dispatch(addCart({id:key.id,name:key.name,image:key.image,brand:key.brand,category:key.category,price:key.price}))}} className='cartbtn'>Add To Cart</Button>
       </Card.Body>
     </Card>
       </>

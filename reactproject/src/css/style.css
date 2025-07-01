@@ -10,7 +10,7 @@
 }
 #img{
     height: 250px;
-    width: 250px;
+    width: 300px;
     
 }
 #card{
@@ -19,6 +19,15 @@
     justify-content: center;
     gap: 50px;
     border: none;
+    background-color: rgba(243, 5, 85, 0.103);
+}
+.cartbtn{
+  background-color: black;
+  color: aliceblue;
+}
+.cartbtn:hover{
+  background-color: aliceblue;
+  color: black;
 }
 /*===========================================================================================================================================*/
 .carousel-control-prev,
@@ -44,13 +53,15 @@
     justify-content: space-around;
     padding: 1rem;
     gap: 10px;
-    background-color: azure;
+    background-color: rgba(223, 165, 184, 0.564);
     margin-top: 40px;
 }
 #icon div{
     width: 350px;
     height: auto;
     /* border: 1px solid black; */
+    padding: 0.5rem;
+    border-radius: 10px;
 }
 #icons2{
     font-size:25px;
