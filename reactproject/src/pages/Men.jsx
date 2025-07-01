@@ -1,8 +1,14 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 
+import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
+import { addCart } from "../cartSlice";
+import { useDispatch } from "react-redux";
+
 const Men=()=>{
     const[mydata,setMydata]=useState([]);
+    const dispatch=useDispatch();
     const loadData=async()=>{
         let api="http://localhost:3000/products/?category=men"
         const response=await axios.get(api);
