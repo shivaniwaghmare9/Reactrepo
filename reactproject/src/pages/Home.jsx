@@ -50,25 +50,24 @@ const Home=()=>{
       <Carousel.Item>
         <img src={img1} alt="web" width="100%" height="600px"/>
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
+            <h3>Fresh Kicks, Fresh Vibes</h3>
+            <p>Lace up with the latest drops and turn heads wherever you go.</p>
+       </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img src={img2} alt="web" width="100%" height="600px"/>
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+             <h3>Step Into Style</h3>
+             <p>Discover comfort, confidence, and craftsmanship—one step at a time.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item >
         <img src={img3} alt="web" width="100%" height="600px"/>
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        </Carousel.Caption>
+        
+      <Carousel.Caption>
+          <h3>Built to Perform</h3>
+        <p>From gym to street, our shoes move with you.</p>
+      </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
 
