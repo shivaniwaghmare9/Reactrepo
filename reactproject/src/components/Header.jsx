@@ -14,7 +14,7 @@ const Header=()=>{
         <input type="text" placeholder="Search" className="inp"/>
         <Button type="submit" id="subbtn">Submit</Button>
        </div>
-            <div className='icon'>
+            <div className='icons'>
         
               <h5><FaRegUserCircle /> <br/>profile</h5>
               <h5><span style={{color:"indianred"}}>{cartLength}</span><br/><FaShoppingCart  id="carticon"/></h5> 

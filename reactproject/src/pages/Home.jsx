@@ -8,6 +8,11 @@ import img3 from "../images/shoes3.jpg"
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
+import { FaTruck } from "react-icons/fa";
+import { MdHighQuality } from "react-icons/md";
+import { MdLocalOffer } from "react-icons/md";
+import { RiSecurePaymentFill } from "react-icons/ri";
+
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 import { useDispatch } from 'react-redux';
@@ -70,7 +75,26 @@ const Home=()=>{
       </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
-
+{/*=============================================================================================================================================================================================*/}
+ <div id="icon">
+      <div>
+        <h3><FaTruck id="icons2"/>FREE DELIVERY</h3>
+        <p>Consectetur adipi elit lorem ipsum dolor sit amet.</p>
+      </div>
+      <div>
+        <h3> <MdHighQuality id="icons2"/>QUALITY GUARANTEE</h3>
+        <p>Dolor sit amet orem ipsu mcons ectetur adipi elit.</p>
+      </div>
+      <div>
+       <h3><MdLocalOffer id="icons2"/>DAILY OFFERS</h3> 
+       <p>Amet consectetur adipi elit loreme ipsum dolor sit.</p>
+        </div>
+      <div>
+        <h3><RiSecurePaymentFill id="icons2"/>100% SECURE PAYMANT</h3>
+        <p>Rem Lopsum dolor sit amet, consectetur adipi elit.</p>
+        </div>
+ </div>
+ {/*=======================================================================================================================================================*/}
 {/*==============================================================================================================================================*/}
   <div id="carddata">
     {ans}

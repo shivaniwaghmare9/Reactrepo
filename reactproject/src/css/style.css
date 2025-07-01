@@ -37,3 +37,29 @@
   background-size: 100% 100%;
   filter: invert(1); /* makes the arrow white */
 }
+/*===============================================================================================================================================*/
+#icon{
+    margin: 2rem;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    gap: 10px;
+    background-color: azure;
+    margin-top: 40px;
+}
+#icon div{
+    width: 350px;
+    height: auto;
+    /* border: 1px solid black; */
+}
+#icons2{
+    font-size:25px;
+}
+#icon h3{
+    font-size: 20px;
+    
+}
+#icon p{
+    font-size: 18px;
+    padding-left: 15px;
+}
