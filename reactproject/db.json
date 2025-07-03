@@ -260,7 +260,7 @@
             "brand":"Bata Kids",
             "category":"kid",
             "price":2609,
-            "image":"https://m.media-amazon.com/images/I/71aSc87+YPL._SY695_.jpg"
+            "image":"https://www.bata.com/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dwe2b8c17d/images/large/1592863_1.jpeg?sw=920"
         },
         {
             "id":28,
@@ -276,7 +276,7 @@
             "brand":"Stride Rite",
             "category":"kid",
             "price":6549,
-            "image":"https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/4/5459379JRD-76-BEIGE_3.jpg?rnd=20200526195200&tr=w-1080"
+            "image":"https://cdn.pixabay.com/photo/2020/11/16/17/30/baby-stuff-5749669_1280.jpg"
         },
         {
             "id":30,
@@ -284,7 +284,23 @@
             "brand":"Stride Rite",
             "category":"kid",
             "price":4649,
-            "image":"https://ketkids.in/cdn/shop/files/85a5f5c4-7d69-44b0-bba0-3a389acea777-compressed.heic?v=1750141500&width=990https://ketkids.in/cdn/shop/files/85a5f5c4-7d69-44b0-bba0-3a389acea777-compressed.heic?v=1750141500&width=990"
+            "image":"https://cdn.fcglcdn.com/brainbees/images/products/583x720/12375719a.webp"
+        },
+        {
+            "id":31,
+            "name":"Clarks Tilden Cap",
+            "brand":"Clarks",
+            "category":"men",
+            "price":6540.99,
+            "image":"https://m.media-amazon.com/images/I/71QZZRLoHDL._SY695_.jpg"
+        },
+        {
+            "id":32,
+            "name":"Nike Air Max 270",
+            "brand":"Nike",
+            "category":"Women",
+            "price":549,
+            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWlW4qffoYlabMUhD2zWXQyY7f1NcSHKTkMQ&s"
         },
         {
             "id":31,
@@ -300,23 +316,7 @@
             "brand":"Chicco",
             "category":"kid",
             "price":549,
-            "image":"https://m.media-amazon.com/images/I/61cbHl3ipcL._SY695_.jpg"
-        },
-        {
-            "id":31,
-            "name":"Clarks Tilden Cap",
-            "brand":"Clarks",
-            "category":"men",
-            "price":6540.99,
-            "image":"https://m.media-amazon.com/images/I/71QZZRLoHDL._SY695_.jpg"
-        },
-        {
-            "id":32,
-            "name":"Chicco Baby Sandals",
-            "brand":"Chicco",
-            "category":"kid",
-            "price":549,
-            "image":"https://m.media-amazon.com/images/I/61cbHl3ipcL._SY695_.jpg"
+            "image":"https://cdn.pixabay.com/photo/2018/11/30/18/37/baby-shoes-3848331_1280.jpg"
         }
     ]
  
