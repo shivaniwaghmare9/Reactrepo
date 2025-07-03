@@ -5,6 +5,7 @@ import { ToastContainer } from "react-toastify"
 import Men from "./pages/Men"
 import Women from "./pages/Women"
 import Kid from "./pages/Kid"
+import { Card1 } from "./pages/card"
 
 const App=()=>{
   return(
@@ -14,6 +15,7 @@ const App=()=>{
             <Route path="/" element={<Layout/>}>
             <Route index element={<Home/>}/>
             <Route path="home" element={<Home/>}/>
+            <Route path="card" element={<Card1/>}/>
             <Route path="men" element={<Men/>}/>
             <Route path="women" element={<Women/>}/>
             <Route path="kid" element={<Kid/>}/>
