@@ -72,7 +72,7 @@
             "brand":"Kids Puma",
             "category":"kid",
             "price":1800.99,
-            "image":"https://themewagon.github.io/stylish/images/card-item2.jpg"
+            "image":"https://img.freepik.com/free-photo/fashion-shoes-sneakers_1203-7529.jpg?semt=ais_hybrid&w=740"
         },
         {
             "id":10,
@@ -252,7 +252,7 @@
             "brand":"Skechers",
             "category":"men",
             "price":3456.99,
-            "image":"https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/0/6018f3cFT_SKEAA00036647_1.jpg?rnd=20200526195200&tr=w-1080"
+            "image":"https://media-us.landmarkshops.in/cdn-cgi/image/h=831,w=615,q=85,fit=cover/max-new/1000013415740-Blue-BLUE-1000013415740_01-2100.jpg"
         },
         {
             "id":27,
@@ -264,11 +264,11 @@
         },
         {
             "id":28,
-            "name":"Bata Men’s Floaters",
-            "brand":"Bata",
+            "name":"Nike Men’s Floaters",
+            "brand":"Nike",
             "category":"men",
             "price":1300.98,
-            "image":"https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSq9H67yF_ru2qbFCXExIskKaUVj1fdnCeVpHt3snHc85fZC7cts6zkwi3m5Cah4e85Ag6GhLUpHONrMd6Id_Tyq61ilcQg0HJNPWpJPS6wbQoBC2l1qsH6"
+            "image":"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxERDxASDg8QEA8QDg0QDxYQDg8QDxUQFREWFhURFRMYHyggGBolGxUVITEhJikrLi4uFx8zODMtNygtLisBCgoKDQ0NDw0PEisZFRk3LTctNzctLSsrKysrKysrKysrKystKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIAOEA4QMBIgACEQEDEQH/xAAcAAEAAgMBAQEAAAAAAAAAAAAAAwQBAgUGBwj/xABEEAACAQICBgUHBwoHAAAAAAAAAQIDEQQSBSExUWFxE0GBkaEGQlKxwdLwIjKEk8LR4QcUQ1RigoOSlOIVIzM0RGNy/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oADAMBAAIRAxEAPwD7QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABiTt7AMg06ZG6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAYlK20p1JXbe9W29W6xpj68ottU88VufyvxK6rOS1q0tWzWmnskt3sNSCWTZYweIv8l7TnvESjs2G9GrFyjJ3TT6tj5ouI7ANYVFLWmnyNjCsN6rnMq6Sld5VqRexj/y5cjh06Texc29nayyJXU0djHO6la6LxwIz6BxmpuSbUZq1kk9V12nehJNJrY1dCjIAIoAAAAAAAAAAAAAAAAAAANZTsQdO3mWW1na7e3ikXBNOtFNJtXexdbfDeVq8m00nLsauuKNWldNq7SeV2V1LhuvsE5W1x27k0tfWXASskr5stk233SKso2as9SbfzXse1cjfpH1Wv1rNaxDWlxu92fUioTtts+VkRrU/uI3Lda/OTMKW7t2gXI74u3IlWKqLrT5op06hNKpqAkq46TVpZe4qTqub4eHcZcblihSQEcMGpJqWvMmu8m0FVlldOfzobOKvt9T7S3FJIrTaVeEk7Sd4yV1drqYo6YAMKAAAAAAAAA1q1FFNvYinDGZuC6hBeMNorZgpFwWMyDmQ5jGYuCSU3yI2ndPM0ltStZjP8azDfxs9ZcRujXr4c9ZjP2d1zleUuJqQweJnRT6SNCo42s5Xt1dlwIcBp2licViKNGzWHhDPNNfKqSk04rgsr1nUb7OCaufnDQ3lHiMHV6XDTyzatJStKE09dpLr3ncrflV0i7KPQRk/RoKcn2XfqGj7ZU7uF43ZDUnZNt5VveVeLPkOHxflHjdcempQl58408NC2+8lmfYjq4P8nGIq/K0jpGtU63Ck6ijydSXsSA9RpPyuwVB5ZYhSqPZCjerVk9yjEt6I0jOupSlhqtCP6PpZRU57XfKtmzrI9CeTOEwcbYahCMuuTWao+c3c6qTezXxsBjr4k6RpGnvZIgCRYpMipwb2fh3kyhbzo37QMYio7JQdpNpJvlds1w2AUXmzZp72HBrW/DWRue5gdmL1GSjoyo3mTe5l4woAAAAAAADn6alaEdzqWfc7HLUmvv4HoK9JTi4vY/Wcirg5RerV8cTUDD4h8yzGoUbyW1d2pmVV3v+ZFRf6Q1dcqxqcvjkJ6/xuBZdc0dYrq/ww77gJ+mMOpchs93ibKL5dgHmMX5DaOqVHOWFSbd2oTnCLe/KnY6OjdEYXDf7bD0qT63CCzv97b4nX1ddnzd/BBT3LwsBXz779zNlOPXqXG5Lne5DO+HcBopU/ST5sOrH0l3m2d+jHuQzfsruA0dSPpLvNoO+zUt9vUjK5eBskBmVTVZaluXtI3Lj4G2X4ZmwGsJbn3El77Y35ama5Pj8TeL4gTYR5ZbLJ6nrOkn2nHlPj4FvRlRtST2Jpq5mqugAgAAAAABrKCe01qOfmqP7zZUqSxXmxpfzMDethH1fK8GUZ01e12nuasbVKmO82nQ7ajKeJek5L/Rwz/8AU7+wsosuhwTMdDwa5SOBWwGlr3hSoR5V3buaI+i07HZRw8udZfcXYPRqD3y72ZycZd7POZ9Or/hYWX0lr7JLGrpzrwOFX0z+wbEd7oufewqHD1s4E6mnPNwWE7cY19gic9P/AKlgv6yT+wNivTKlbqMuDPNRenX87B4NcsZL3CXLpt7cNg19LfujYjvuBjIcR09M/q+D/qpe6V54bT3m08BHniJy+yNg9Co7eBnI7o8xTwHlAm2/8Ps9qzz9ZM8Jp2/zMBq/76nujYPRqLM5XuPM/mWnt2j/AKyp9xIsJpz0cC/40/dGweiyMOmzzksNp3qp4D6+p7pFLD+UHVSwH18/dGweodJ+wdEzyrw3lC9kNHr+LUfsN8PgNO3Tq/mTW6NWcfGw2D1UaK33OjQp5VZdpxsBHHRXy6OFW9xqzb77HYoOf6RRT/ZbZLVSgAgAAAAAAAAAAAAAFgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH/2Q=="
         },
         {
             "id":29,
