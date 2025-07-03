@@ -83,7 +83,7 @@ body{
 #delivery{
     /* border: 1px solid black; */
     margin-top: 40px;
-    background-color: rgba(243, 5, 85, 0.103);
+    background-color: lightgrey;
     margin: 2rem;
 }
 #delivery .inform {
@@ -120,9 +120,8 @@ body{
      justify-content: center;
      gap: 50px;
      padding: 2rem;
-     background-color: black;
+     background-color: rgb(32, 29, 29);
      color: rgb(228, 228, 225);
-     
 }
 .ftr div h3{
      color: aliceblue;
@@ -130,7 +129,7 @@ body{
      font-size: 23px;
 }
 .ftr div h5{
-     color: aliceblue;
+     color: rgb(227, 231, 234);
      font-weight: bold;
      font-size: 15px;
 }
