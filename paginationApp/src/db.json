@@ -1,3 +1,63 @@
+// {
+//   "records": [
+//     {
+//       "id": "1774",
+//       "name": "shreyaa",
+//       "city": "pune",
+//       "post": "assistant",
+//       "salary": "34000"
+//     },
+//     {
+//       "id": "1774",
+//       "name": "shri",
+//       "city": "pune",
+//       "post": "Manager",
+//       "salary": "34000"
+//     },
+//     {
+//       "id": "1",
+//       "name": "shiv",
+//       "city": "Indore",
+//       "post": "CEO",
+//       "salary": 46772
+//     },
+//     {
+//       "id": "1774",
+//       "name": "sweta",
+//       "city": "Vidisha",
+//       "post": "Teacher",
+//       "salary": "34000"
+//     },
+//     {
+//       "id": "a3e7",
+//       "name": "preetam",
+//       "city": "indore",
+//       "post": "developer",
+//       "salary": "45000"
+//     },
+//     {
+//       "id": "6b31",
+//       "name": "aarti",
+//       "city": "indore",
+//       "post": "teacher",
+//       "salary": "34000"
+//     },
+//     {
+//       "id": "d989",
+//       "name": "bharti",
+//       "city": "banglore",
+//       "post": "assistant",
+//       "salary": "68000"
+//     },
+//     {
+//       "id": "8b25",
+//       "name": "cvani",
+//       "city": "betul",
+//       "post": "developer",
+//       "salary": "879065"
+//     }
+//   ]
+// }
 {
   "records": [
     {
