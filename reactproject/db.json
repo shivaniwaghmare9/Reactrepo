@@ -145,7 +145,10 @@
             "category":"kid",
             "price":1800.99,
             "image":"https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/7/574a3e4C447-2-39-S1_10.jpg?tr=w-512"
-        },
+        }
+        
+    ],
+    "records":[
         {
             "id":19,
             "name":"Converse Chuck Taylor All Star",
@@ -161,10 +164,8 @@
             "category":"men",
             "price":1450,
             "image":"https://m.media-amazon.com/images/I/611u-GBbWtL._SY695_.jpg"
-        }
+        },
         
-    ],
-    "records":[
         {
             "id":21,
             "name":"Crocs Kids Classic Clog",
