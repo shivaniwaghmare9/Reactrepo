@@ -5,6 +5,8 @@ import img1 from "../images/Shoestem.jpg"
 import img2 from "../images/shoes2.jpg"
 import img3 from "../images/shoes3.jpg"
 import img4 from "../images/footer up.webp"
+import img5 from "../images/banner.jpg";
+import img6 from "../images/girl.webp"
 
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
@@ -137,6 +139,20 @@ const Home=()=>{
   <Carousel className='outlet' >
       <Carousel.Item>
         <img src={img4} alt="web" width="100%" height="300px"/>
+        <Carousel.Caption>
+            <h3>Fresh Kicks, Fresh Vibes</h3>
+            <p>Lace up with the latest drops and turn heads wherever you go.</p>
+       </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img src={img5} alt="web" width="100%" height="300px"/>
+        <Carousel.Caption>
+            <h3>Fresh Kicks, Fresh Vibes</h3>
+            <p>Lace up with the latest drops and turn heads wherever you go.</p>
+       </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img src={img6} alt="web" width="100%" height="300px"/>
         <Carousel.Caption>
             <h3>Fresh Kicks, Fresh Vibes</h3>
             <p>Lace up with the latest drops and turn heads wherever you go.</p>
