@@ -161,7 +161,10 @@
             "category":"men",
             "price":1450,
             "image":"https://m.media-amazon.com/images/I/611u-GBbWtL._SY695_.jpg"
-        },
+        }
+        
+    ],
+    "records":[
         {
             "id":21,
             "name":"Crocs Kids Classic Clog",
@@ -243,10 +246,8 @@
             "category":"kid",
             "price":4649,
             "image":"https://ketkids.in/cdn/shop/files/85a5f5c4-7d69-44b0-bba0-3a389acea777-compressed.heic?v=1750141500&width=990https://ketkids.in/cdn/shop/files/85a5f5c4-7d69-44b0-bba0-3a389acea777-compressed.heic?v=1750141500&width=990"
-        }
-    ],
-    "records":[
-    {
+        },
+       {
             "id":26,
             "name":"Skechers Go Walk 6",
             "brand":"Skechers",
