@@ -49,6 +49,39 @@ const Home=()=>{
       </>
     )
   })
+
+
+  const[myData,setMyData]=useState([])
+  const loaddata=async()=>{
+    let api="http://localhost:3000/records";
+    const response=await axios.get(api);
+    setMyData(response.data);
+    console.log(response.data)
+  }
+  useEffect(()=>{
+   loaddata();
+  },[])
+
+  const ans2=myData.map((key)=>{
+    return(
+      <>
+         <Card id="card">
+        <Card.Img variant="top" src={key.image}  id="img"/>
+      <Card.Body>
+        <Card.Title>Name:{key.name}</Card.Title>
+        <Card.Text>
+          Brand:{key.brand}<br/>
+          Category:{key.category}<br/>
+          Price:{key.price}<br/>
+        </Card.Text>
+        <Button variant="primary" onClick={()=>{dispatch(addCart({id:key.id,name:key.name,image:key.image,brand:key.brand,category:key.category,price:key.price}))}} className='cartbtn'>Add To Cart</Button>
+      </Card.Body>
+    </Card>
+      </>
+    )
+  })
+
+
    return(
     <>
      <Carousel className='outlet' >
@@ -98,6 +131,34 @@ const Home=()=>{
 {/*==============================================================================================================================================*/}
   <div id="carddata">
     {ans}
+  </div>
+
+  <Carousel className='outlet' >
+      <Carousel.Item>
+        <img src={img1} alt="web" width="100%" height="600px"/>
+        <Carousel.Caption>
+            <h3>Fresh Kicks, Fresh Vibes</h3>
+            <p>Lace up with the latest drops and turn heads wherever you go.</p>
+       </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img src={img2} alt="web" width="100%" height="600px"/>
+        <Carousel.Caption>
+             <h3>Step Into Style</h3>
+             <p>Discover comfort, confidence, and craftsmanship—one step at a time.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item >
+        <img src={img3} alt="web" width="100%" height="600px"/>
+        
+      <Carousel.Caption>
+          <h3>Built to Perform</h3>
+        <p>From gym to street, our shoes move with you.</p>
+      </Carousel.Caption>
+      </Carousel.Item>
+    </Carousel>
+    <div id="carddata">
+    {ans2}
   </div>
     </>
    )
