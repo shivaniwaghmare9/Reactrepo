@@ -4,6 +4,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import img1 from "../images/Shoestem.jpg"
 import img2 from "../images/shoes2.jpg"
 import img3 from "../images/shoes3.jpg"
+import img4 from "../images/footer up.webp"
 
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
@@ -135,27 +136,13 @@ const Home=()=>{
 
   <Carousel className='outlet' >
       <Carousel.Item>
-        <img src={img1} alt="web" width="100%" height="600px"/>
+        <img src={img4} alt="web" width="100%" height="300px"/>
         <Carousel.Caption>
             <h3>Fresh Kicks, Fresh Vibes</h3>
             <p>Lace up with the latest drops and turn heads wherever you go.</p>
        </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item>
-        <img src={img2} alt="web" width="100%" height="600px"/>
-        <Carousel.Caption>
-             <h3>Step Into Style</h3>
-             <p>Discover comfort, confidence, and craftsmanship—one step at a time.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item >
-        <img src={img3} alt="web" width="100%" height="600px"/>
-        
-      <Carousel.Caption>
-          <h3>Built to Perform</h3>
-        <p>From gym to street, our shoes move with you.</p>
-      </Carousel.Caption>
-      </Carousel.Item>
+     
     </Carousel>
     <div id="carddata">
     {ans2}
