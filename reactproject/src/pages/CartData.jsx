@@ -37,7 +37,7 @@ const Cartdata=()=>{
     return(
         <>
          <h3 id="h3tag">OUR COLLECTED DATA</h3>
-         <Table striped bordered hover size="sm">
+         <Table striped bordered hover size="sm" style={{marginTop:"30px"}}>
       <thead>
         <tr>
           <th>Image</th>
