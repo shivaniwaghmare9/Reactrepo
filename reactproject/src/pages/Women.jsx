@@ -41,10 +41,10 @@ const Women=()=>{
 const[myData,setMyData]=useState([]);
     
     const loaddata=async()=>{
-        let api="http://localhost:3000/products/?category=women"
+        let api="http://localhost:3000/records/?category=women"
         const response=await axios.get(api);
         console.log(response.data);
-        setMydata(response.data);
+        setMyData(response.data);
     }
     useEffect(()=>{
         loaddata()
