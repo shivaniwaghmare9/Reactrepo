@@ -69,7 +69,7 @@ const Kid=()=>{
 
     return(
         <>
-        <h3 id="h3tag">Kid Latest Shoes</h3>
+        <h3 id="h3tag">KID LATEST SHOES</h3>
          <div id="carddata">
            {ans}
         </div>
