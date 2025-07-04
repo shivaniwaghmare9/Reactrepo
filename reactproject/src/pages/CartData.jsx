@@ -3,8 +3,9 @@ import { useSelector,useDispatch } from "react-redux";
 const Cartdata=()=>{
     const cardData=useSelector(state=>state.mycart.cart);
     // const dispatch=useDispatch();
-
+    let TotalAmount=0;
     const ans=cardData.map((key)=>{
+        TotalAmount+=key.qnty*key.price
         return(
             <>
              <tr>
@@ -35,6 +36,14 @@ const Cartdata=()=>{
       </thead>
       <tbody>
         {ans}
+        <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th>NetAmount</th>
+            <th>{TotalAmount}</th>
+        </tr>
       </tbody>
       </Table>
         </>
