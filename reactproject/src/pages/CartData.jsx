@@ -20,7 +20,7 @@ const Cartdata=()=>{
                 <td>{key.name}</td>
                 <td>{key.brand}</td>
                 <td>{key.category}</td>
-                <td>
+                <td style={{fontSize:"20px"}}>
                   <FaMinusSquare onClick={()=>{dispatch(decreMent({id:key.id}))}}/>
                   {key.qnty}
                   <FaPlusSquare onClick={()=>{dispatch(increMent({id:key.id}))}}/>
@@ -28,7 +28,7 @@ const Cartdata=()=>{
                 <td>{key.price}</td>
                 <td>{key.qnty*key.price}</td> 
                 <td>
-                  <span onClick={()=>{dispatch(reMove({id:key.id}))}}>remove</span>
+                  <span onClick={()=>{dispatch(reMove({id:key.id}))}} style={{backgroundColor:"black",padding:"0.4rem",color:"aliceblue"}}>remove</span>
                 </td>
              </tr>
             </>
