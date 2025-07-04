@@ -3,7 +3,7 @@ import { useSelector,useDispatch } from "react-redux";
 import { FaIndianRupeeSign } from "react-icons/fa6";
 import { FaMinusSquare } from "react-icons/fa";
 import { FaPlusSquare } from "react-icons/fa";
-import { increMent,decreMent } from '../cartSlice';
+import { increMent,decreMent,reMove } from '../cartSlice';
 
 const Cartdata=()=>{
     const cardData=useSelector(state=>state.mycart.cart);
@@ -27,6 +27,9 @@ const Cartdata=()=>{
                   </td>
                 <td>{key.price}</td>
                 <td>{key.qnty*key.price}</td> 
+                <td>
+                  <span onClick={()=>{dispatch(reMove({id:key.id}))}}>remove</span>
+                </td>
              </tr>
             </>
         )
@@ -43,6 +46,7 @@ const Cartdata=()=>{
           <th>Quantity</th>
           <th>Price</th>
           <th>Total Price</th>
+          <th>Remove</th>
         </tr>
       </thead>
       <tbody>
