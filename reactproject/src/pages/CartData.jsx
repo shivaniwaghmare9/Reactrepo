@@ -14,6 +14,7 @@ const Cartdata=()=>{
                 <td>{key.name}</td>
                 <td>{key.brand}</td>
                 <td>{key.category}</td>
+                <td>{key.qnty}</td>
                 <td>{key.price}</td>
              </tr>
             </>
@@ -28,6 +29,7 @@ const Cartdata=()=>{
           <th>Name</th>
           <th>Brand</th>
           <th>Category</th>
+          <th>Quantity</th>
           <th>Price</th>
         </tr>
       </thead>
