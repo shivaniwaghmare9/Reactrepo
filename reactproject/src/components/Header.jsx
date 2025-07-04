@@ -4,7 +4,9 @@ import Button from 'react-bootstrap/Button';
 import { FaShoppingCart } from "react-icons/fa";
 import { FaRegUserCircle } from "react-icons/fa";
 import { useSelector } from 'react-redux';
+import { useNavigate } from 'react-router-dom';
 const Header=()=>{
+    const navigate=useNavigate();
     const cartData=useSelector(state=>state.mycart.cart);
     const cartLength=cartData.length;
     return(
@@ -17,7 +19,7 @@ const Header=()=>{
             <div className='icons'>
         
               <h5><FaRegUserCircle /> <br/>profile</h5>
-              <h5><span style={{color:"indianred"}}>{cartLength}</span><br/><FaShoppingCart  id="carticon"/></h5> 
+              <h5><span style={{color:"indianred"}}>{cartLength}</span><br/><FaShoppingCart  id="carticon" onClick={()=>{navigate("/Cartdata")}}/></h5> 
              
             </div> 
     </div>
