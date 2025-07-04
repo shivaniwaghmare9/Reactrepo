@@ -39,6 +39,7 @@ const Kid=()=>{
     })
     return(
         <>
+        <h3 id="h3tag">Kid Latest Shoes</h3>
          <div id="carddata">
            {ans}
         </div>

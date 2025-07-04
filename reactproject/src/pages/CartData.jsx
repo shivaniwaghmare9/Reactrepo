@@ -56,6 +56,7 @@ const Cartdata=()=>{
             <th></th>
             <th></th>
             <th></th>
+            <th></th>
             <th>NetAmount</th>
             <th><FaIndianRupeeSign />{TotalAmount}</th>
         </tr> 
