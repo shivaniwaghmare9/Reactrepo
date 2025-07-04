@@ -19,7 +19,7 @@ const Header=()=>{
             <div className='icons'>
         
               <h5><FaRegUserCircle /> <br/>profile</h5>
-              <h5><span style={{color:"indianred"}}>{cartLength}</span><br/><FaShoppingCart  id="carticon" onClick={()=>{navigate("/mycart")}}/></h5> 
+              <h5><span style={{color:"indianred"}}>{cartLength}</span><br/><FaShoppingCart  id="carticon" onClick={()=>{navigate("/cartdata")}}/></h5> 
              
             </div> 
     </div>

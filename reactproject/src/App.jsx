@@ -19,7 +19,7 @@ const App=()=>{
             <Route path="men" element={<Men/>}/>
             <Route path="women" element={<Women/>}/>
             <Route path="kid" element={<Kid/>}/>
-            <Route path="mycart" element={<Cartdata/>}/>
+            <Route path="cartdata" element={<Cartdata/>}/>
             </Route>
          </Routes>
      </BrowserRouter>
