@@ -18,6 +18,15 @@ const cartSlice=createSlice({
             }
     
         },
+        decrement:(state,actions)=>{
+            for(var i=0; i<state.cart.length; i++)
+            {
+              if(state.cart[i].id==actions.payload.id)
+              {
+                state.cart[i].qnty--;
+              }
+            }
+        },
         increment:(state,actions)=>{
             for(var i=0; i<state.cart.length; i++)
             {
