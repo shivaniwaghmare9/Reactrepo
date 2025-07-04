@@ -36,6 +36,7 @@ const Cartdata=()=>{
     })
     return(
         <>
+         <h3 id="h3tag">Our Collected Data</h3>
          <Table striped bordered hover size="sm">
       <thead>
         <tr>
