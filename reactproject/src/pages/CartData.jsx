@@ -1,11 +1,15 @@
 import Table from 'react-bootstrap/Table';
 import { useSelector,useDispatch } from "react-redux";
+import { FaIndianRupeeSign } from "react-icons/fa6";
+import { FaMinusSquare } from "react-icons/fa";
+import { FaPlusSquare } from "react-icons/fa";
+
 const Cartdata=()=>{
     const cardData=useSelector(state=>state.mycart.cart);
-    // const dispatch=useDispatch();
-    let TotalAmount=0;
+     const dispatch=useDispatch();
+     let TotalAmount=0;
     const ans=cardData.map((key)=>{
-        TotalAmount+=key.qnty*key.price
+         TotalAmount+=key.qnty*key.price;
         return(
             <>
              <tr>
@@ -15,8 +19,13 @@ const Cartdata=()=>{
                 <td>{key.name}</td>
                 <td>{key.brand}</td>
                 <td>{key.category}</td>
-                <td>{key.qnty}</td>
+                <td>
+                  <FaMinusSquare onClick={()=>{dispatch(increment({id:key.id}))}}/>
+                  {key.qnty}
+                  <FaPlusSquare onClick={()=>{dispatch(decrement({id:key.id}))}}/>
+                  </td>
                 <td>{key.price}</td>
+                <td>{key.qnty*key.price}</td> 
              </tr>
             </>
         )
@@ -32,19 +41,21 @@ const Cartdata=()=>{
           <th>Category</th>
           <th>Quantity</th>
           <th>Price</th>
+          <th>Total Price</th>
         </tr>
       </thead>
       <tbody>
         {ans}
-        <tr>
+         <tr>
             <th></th>
             <th></th>
             <th></th>
             <th></th>
             <th>NetAmount</th>
-            <th>{TotalAmount}</th>
-        </tr>
-      </tbody>
+            <th><FaIndianRupeeSign />{TotalAmount}</th>
+        </tr> 
+     </tbody>
+        
       </Table>
         </>
     )

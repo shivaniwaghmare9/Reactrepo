@@ -17,7 +17,13 @@ const cartSlice=createSlice({
                 state.cart.push(actions.payload);
             }
     
-    }
+        },
+        increment:(state,actions)=>{
+            for(var i=0; i<state.cart.length; i++)
+            {
+
+            }
+        }
     }
 })
 export const{addCart}=cartSlice.actions;

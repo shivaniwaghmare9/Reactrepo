@@ -1,3 +1,4 @@
+
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 import Layout from "./Layout"
 import Home from "./pages/Home"
@@ -6,7 +7,6 @@ import Men from "./pages/Men"
 import Women from "./pages/Women"
 import Kid from "./pages/Kid"
 import Cartdata from "./pages/CartData"
-
 
 const App=()=>{
   return(
