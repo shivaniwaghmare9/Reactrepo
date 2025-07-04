@@ -1,12 +1,24 @@
-
 {
-    "data":[
-        {
-            "id":1,
-            "name":"shivani",
-            "rollno":1002,
-            "city":"bhopal",
-            "fees":34220
-        }
-    ]
+  "data": [
+    {
+      "id": "1",
+      "name": "shivani",
+      "rollno": 1002,
+      "city": "bhopal",
+      "fees": 34220
+    },
+    {
+      "id": "6781"
+    },
+    {
+      "id": "c65c"
+    },
+    {
+      "id": "be2b",
+      "name": "divya",
+      "rollno": "1002",
+      "city": "bhopal",
+      "fees": "345522"
+    }
+  ]
 }

@@ -5,15 +5,16 @@ const Insert=()=>{
     const[input,setInput]=useState({})
     const  handleInput=(e)=>{
         let name=e.target.name;
-        let value=e.taeget.value;
+        let value=e.target.value;
         console.log(input)
         setInput(values=>({...values,[name]:value}))
     }
     const handleSubmit=async()=>{
         let api="http://localhost:3000/data";
-        const response=await axios.push(api)
+        const response=await axios.post(api,input)
         console.log(response.data)
         setInput(response.data)
+        alert("data successfully inserted")
     }
     return(
         <>
