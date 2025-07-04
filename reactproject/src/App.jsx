@@ -5,6 +5,7 @@ import { ToastContainer } from "react-toastify"
 import Men from "./pages/Men"
 import Women from "./pages/Women"
 import Kid from "./pages/Kid"
+import Cartdata from "./pages/CartData"
 
 
 const App=()=>{
@@ -18,6 +19,7 @@ const App=()=>{
             <Route path="men" element={<Men/>}/>
             <Route path="women" element={<Women/>}/>
             <Route path="kid" element={<Kid/>}/>
+            <Route path="mycart" element={<Cartdata/>}/>
             </Route>
          </Routes>
      </BrowserRouter>

@@ -9,9 +9,9 @@ const Cartdata=()=>{
             <>
              <tr>
                 <td>
-                <img src={key.image} alt="web" />
+                <img src={key.image} alt="web" width="100px" height="100px"/>
                 </td>
-                <td>{keyname}.</td>
+                <td>{key.name}</td>
                 <td>{key.brand}</td>
                 <td>{key.category}</td>
                 <td>{key.price}</td>
