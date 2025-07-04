@@ -18,7 +18,7 @@ const cartSlice=createSlice({
             }
     
         },
-        decrement:(state,actions)=>{
+        decreMent:(state,actions)=>{
             for(var i=0; i<state.cart.length; i++)
             {
               if(state.cart[i].id==actions.payload.id)
@@ -27,7 +27,7 @@ const cartSlice=createSlice({
               }
             }
         },
-        increment:(state,actions)=>{
+        increMent:(state,actions)=>{
             for(var i=0; i<state.cart.length; i++)
             {
               if(state.cart[i].id==actions.payload.id)
@@ -38,5 +38,5 @@ const cartSlice=createSlice({
         }
     }
 })
-export const{addCart,decrement,increment}=cartSlice.actions;
+export const{addCart,decreMent,increMent}=cartSlice.actions;
 export default cartSlice.reducer;

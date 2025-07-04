@@ -3,6 +3,7 @@ import { useSelector,useDispatch } from "react-redux";
 import { FaIndianRupeeSign } from "react-icons/fa6";
 import { FaMinusSquare } from "react-icons/fa";
 import { FaPlusSquare } from "react-icons/fa";
+import { increment,decrement } from '../cartSlice';
 
 const Cartdata=()=>{
     const cardData=useSelector(state=>state.mycart.cart);
