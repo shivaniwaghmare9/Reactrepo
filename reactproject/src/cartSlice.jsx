@@ -21,11 +21,17 @@ const cartSlice=createSlice({
         decreMent:(state,actions)=>{
             for(var i=0; i<state.cart.length; i++)
             {
-              if(state.cart[i].id==actions.payload.id)
-              {
+              if(state.cart[i].id==actions.payload.id){
+                if(state.cart[i].qnty<=1)
+                {
+                 toast.warning("Quantity not less then 0");
+                }
+                else
+               {
                 state.cart[i].qnty--;
-              }
+               }
             }
+        }
         },
         increMent:(state,actions)=>{
             for(var i=0; i<state.cart.length; i++)
@@ -33,7 +39,7 @@ const cartSlice=createSlice({
               if(state.cart[i].id==actions.payload.id)
               {
                 state.cart[i].qnty++;
-              }
+               }
             }
         }
     }

@@ -21,9 +21,9 @@ const Cartdata=()=>{
                 <td>{key.brand}</td>
                 <td>{key.category}</td>
                 <td>
-                  <FaMinusSquare onClick={()=>{dispatch(increMent({id:key.id}))}}/>
+                  <FaMinusSquare onClick={()=>{dispatch(decreMent({id:key.id}))}}/>
                   {key.qnty}
-                  <FaPlusSquare onClick={()=>{dispatch(decreMent({id:key.id}))}}/>
+                  <FaPlusSquare onClick={()=>{dispatch(increMent({id:key.id}))}}/>
                   </td>
                 <td>{key.price}</td>
                 <td>{key.qnty*key.price}</td> 

@@ -6,7 +6,7 @@
             "name":"Nike Air Max 270 React",
             "brand":"Nike",
             "category":"men",
-            "price":4657.55,
+            "price":4657,
             "image":"https://m.media-amazon.com/images/I/518RgzKe3hL._SY695_.jpg"
         },
         {
@@ -14,7 +14,7 @@
             "name":"Skechers Girl Snap Sprints",
             "brand":"Skechers Kids",
             "category":"kid",
-            "price":2999.99,
+            "price":2999,
             "image":"https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/8/7892b0b310156LI-WMLT_2.jpg?tr=w-512"
         },
         
@@ -23,7 +23,7 @@
             "name":"Jimmy Choo Romy 100",
             "brand":"Jimmy Choo",
             "category":"women",
-            "price":1800.99,
+            "price":3800,
             "image":"https://xtepindia.com/cdn/shop/files/1_13_589ae8ec-fbce-4eb1-9f73-98fe28ec2405.jpg?crop=center&height=987&v=1743508163&width=940"
         },
         {
@@ -31,7 +31,7 @@
             "name":"Adidas Ultraboost 22",
             "brand":"Adidas",
             "category":"men",
-            "price":1999.99,
+            "price":1999,
             "image":"https://themewagon.github.io/stylish/images/card-item7.jpg"
         },
         {
@@ -39,7 +39,7 @@
             "name":"Puma ",
             "brand":"Puma",
             "category":"women",
-            "price":1800.99,
+            "price":1800,
             "image":"https://themewagon.github.io/stylish/images/card-item4.jpg"
         },
         {
@@ -47,7 +47,7 @@
             "name":"Nike Air Max 270 React",
             "brand":"Nike",
             "category":"men",
-            "price":4657.55,
+            "price":4657,
             "image":"https://themewagon.github.io/stylish/images/card-item3.jpg"
         },
         {
@@ -55,7 +55,7 @@
             "name":"Puma Kids Wired Run PS ",
             "brand":"Puma Kids",
             "category":"kid",
-            "price":1798.99,
+            "price":1798,
             "image":"https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/a/ea19c0639728702_1.jpg?rnd=20200526195200&tr=w-512"
         },
         {
@@ -63,7 +63,7 @@
             "name":"Jimmy Choo Romy 100",
             "brand":"Puma",
             "category":"men",
-            "price":1800.99,
+            "price":7800,
             "image":"https://themewagon.github.io/stylish/images/card-item6.jpg"
         },
         {
@@ -71,7 +71,7 @@
             "name":"Jimmy Choo Romy 100",
             "brand":"Kids Puma",
             "category":"kid",
-            "price":1800.99,
+            "price":1800,
             "image":"https://img.freepik.com/free-photo/fashion-shoes-sneakers_1203-7529.jpg?semt=ais_hybrid&w=740"
         },
         {
@@ -79,7 +79,7 @@
             "name":"Dr. Martens 1460",
             "brand":"Steve Madden",
             "category":"women",
-            "price":1800.99,
+            "price":1800,
             "image":"https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcT_MTxNGImjTK0uBGx1dPnPqEQrImBdYl0Sn9-ugiakjcvCW_6317sDtpnNjK-3PmkiuQpk5rMr6s9lPtht5OFojodXkJKg9nJNU9SO7Fs9hhDfmB88hcqlLg"
         },
         {
@@ -87,7 +87,7 @@
             "name":"Liberty Kids Active Shoes",
             "brand":"Liberty",
             "category":"kid",
-            "price":999.99,
+            "price":9999,
             "image":"https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/a/0acd3fdBASTIAN-2M_SBLUE_2.jpg?tr=w-512"
         },
         {
@@ -95,7 +95,7 @@
             "name":"Adidas Alphabounce",
             "brand":"Adidas",
             "category":"men",
-            "price":2500.54,
+            "price":2500,
             "image":"https://xtepindia.com/cdn/shop/files/877319320021_1.jpg?crop=center&height=987&v=1748952463&width=940"
         },
         {
@@ -111,7 +111,7 @@
             "name":"Puma Unisex Adult Smash V2 L",
             "brand":"Puma",
             "category":"men",
-            "price":2090.34,
+            "price":2090,
             "image":"https://m.media-amazon.com/images/I/51BxhiVoo6L._SY695_.jpg"
         },
         {
@@ -119,7 +119,7 @@
             "name":"Adidas Fortarun Kids",
             "brand":"Adidas Kids",
             "category":"kid",
-            "price":3246.99,
+            "price":3246,
             "image":"https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/a/7a222daJRD251BLACK_1.jpg?rnd=20200526195200&tr=w-512"
         },
         {
@@ -143,7 +143,7 @@
             "name":"Nike Revolution 6 Kids",
             "brand":"Nike Kids",
             "category":"kid",
-            "price":1800.99,
+            "price":1800,
             "image":"https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/7/574a3e4C447-2-39-S1_10.jpg?tr=w-512"
         }
         
@@ -179,7 +179,7 @@
             "name":"Jimmy Choo Romy 100",
             "brand":"Zara",
             "category":"women",
-            "price":1800.99,
+            "price":4300,
             "image":"https://themewagon.github.io/stylish/images/card-item10.jpg"
         },
         {
@@ -187,7 +187,7 @@
             "name":"Clarks Emery Dot",
             "brand":"Clarks Kids",
             "category":"kid",
-            "price":817,
+            "price":8170,
             "image":"https://m.media-amazon.com/images/I/715pEfcz87L._SY695_.jpg"
         },
         {
@@ -195,7 +195,7 @@
             "name":"Red Tape Leather Slip-on",
             "brand":"Red Tape",
             "category":"men",
-            "price":1500,
+            "price":2500,
             "image":"https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTzYBudOZg9ieeSmbVSZGGf47WASPajiWZf3Z1YsTuws9IT-aacAGNgM4qzF-8lgc_5s-1T4oeH6hJ3HJJWOg7pZo3NeqZZuYh9pmsRfGHnH-UEEdnoa6OrkA"
         },
         {
@@ -213,7 +213,7 @@
             "name":"Skechers Go Walk 6",
             "brand":"Skechers",
             "category":"men",
-            "price":3456.99,
+            "price":3456,
             "image":"https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/0/6018f3cFT_SKEAA00036647_1.jpg?rnd=20200526195200&tr=w-1080"
         },
         {
@@ -229,7 +229,7 @@
             "name":"Bata Men’s Floaters",
             "brand":"Bata",
             "category":"men",
-            "price":1300.98,
+            "price":1300,
             "image":"https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSq9H67yF_ru2qbFCXExIskKaUVj1fdnCeVpHt3snHc85fZC7cts6zkwi3m5Cah4e85Ag6GhLUpHONrMd6Id_Tyq61ilcQg0HJNPWpJPS6wbQoBC2l1qsH6"
         },
         {
@@ -253,7 +253,7 @@
             "name":"Skechers Go Walk 6",
             "brand":"Skechers",
             "category":"men",
-            "price":3456.99,
+            "price":3456,
             "image":"https://media-us.landmarkshops.in/cdn-cgi/image/h=831,w=615,q=85,fit=cover/max-new/1000013415740-Blue-BLUE-1000013415740_01-2100.jpg"
         },
         {
@@ -269,7 +269,7 @@
             "name":"Nike Men’s Floaters",
             "brand":"Nike",
             "category":"men",
-            "price":1300.98,
+            "price":1300,
             "image":"data:image/jpeg;base64,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"
         },
         {
@@ -293,7 +293,7 @@
             "name":"Clarks Tilden Cap",
             "brand":"Clarks",
             "category":"men",
-            "price":6540.99,
+            "price":6540,
             "image":"https://m.media-amazon.com/images/I/51xYd8IXTOL._SY695_.jpg"
         },
         {
@@ -301,7 +301,7 @@
             "name":"Nike Air Max 270",
             "brand":"Nike",
             "category":"Women",
-            "price":549,
+            "price":4549,
             "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWlW4qffoYlabMUhD2zWXQyY7f1NcSHKTkMQ&s"
         },
         {
@@ -309,7 +309,7 @@
             "name":"Clarks Tilden Cap",
             "brand":"Clarks",
             "category":"men",
-            "price":6540.99,
+            "price":6540,
             "image":"https://www.campusshoes.com/cdn/shop/files/WEEKENDER_22G_1246_WHITE_BLK_2_900x.jpg?v=1751455219"
         },
         {
