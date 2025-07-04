@@ -70,7 +70,7 @@ const[myData,setMyData]=useState([]);
 
     return(
         <>
-        <h3 id="h3tag">Women Latest Shoes</h3>
+        <h3 id="h3tag">WOMEN LATEST SHOES</h3>
          <div id="carddata">
            {ans}
         </div>
