@@ -15,11 +15,17 @@ const Myedit=()=>{
         loadData()
     },[])
 
-    const handleInput=()=>{
+    const handleInput=(useEffect)=>{
       let name=e.target.name;
       let value=e.target.value;
       setMydata(values=>({...values,[name]:value}))
       console.log(mydata);
+    }
+
+    const handleSubmit=async()=>{
+        let api=`http://localhost:3000/data/${id}`;
+        const response=await axios.put(api,mydata);
+        alert("data successfully updated!!")
     }
     return(
         <>
