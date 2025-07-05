@@ -3,7 +3,9 @@
 import Table from 'react-bootstrap/Table';
 import axios from "axios";
 import { useState,useEffect } from "react";
+import { useNavigate } from 'react-router-dom';
 const Update=()=>{
+    const navigate=useNavigate();
     const [mydata,setMydata]=useState([]);
     const loadData=async()=>{
         let api="http://localhost:3000/data"
@@ -21,6 +23,10 @@ const Update=()=>{
         alert("data successfully deleted!!");
         loadData();
     }
+
+    const dataEdit=(id)=>{
+        navigate(`/edit/${id}`)
+    }
     let sno=0;
     const ans=mydata.map((key)=>{
         sno++;
@@ -34,6 +40,9 @@ const Update=()=>{
                 <td>{key.fees}</td>
                 <td>
                     <span onClick={()=>{dataDelete(key.id)}}>delete</span>
+                </td>
+                <td>
+                    <span onClick={()=>{dataEdit(key.id)}}>edit</span>
                 </td>
             </tr>
             </>
@@ -51,6 +60,7 @@ const Update=()=>{
           <th>City</th>
           <th>Fees</th>
           <th>Delete</th>
+          <th>Edit</th>
         </tr>
       </thead>
       <tbody>
