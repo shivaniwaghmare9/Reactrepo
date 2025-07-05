@@ -7,6 +7,7 @@ import Men from "./pages/Men"
 import Women from "./pages/Women"
 import Kid from "./pages/Kid"
 import Cartdata from "./pages/CartData"
+import CheckOut from "./pages/CheckOut"
 
 const App=()=>{
   return(
@@ -20,6 +21,7 @@ const App=()=>{
             <Route path="women" element={<Women/>}/>
             <Route path="kid" element={<Kid/>}/>
             <Route path="cartdata" element={<Cartdata/>}/>
+            <Route path="checkout" element={<CheckOut/>}/>
             </Route>
          </Routes>
      </BrowserRouter>

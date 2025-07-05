@@ -16,6 +16,7 @@ const Topnav=()=>{
             <Nav.Link as={Link} to="women" id="content">Women</Nav.Link>
             <Nav.Link as={Link} to="kid" id="content">Kid</Nav.Link>
             <Nav.Link as={Link} to="cartdata" id="content">CartData</Nav.Link>
+            <Nav.Link as={Link} to="checkout" id="content">CheckOut</Nav.Link>
             <Nav.Link as={Link} to="search" id="content">Search</Nav.Link>
             
           </Nav>
