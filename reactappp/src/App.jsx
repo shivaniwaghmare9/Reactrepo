@@ -5,6 +5,7 @@ import Insert from "./pages/Insert";
 import Display from "./pages/Display";
 import Search from "./pages/Search";
 import Update from "./pages/Update";
+import Myedit from "./pages/MyEdit";
 const App=()=>{
   return(
     <>
@@ -17,6 +18,7 @@ const App=()=>{
         <Route path="display" element={<Display/>}/>
         <Route path="search" element={<Search/>}/>
         <Route path="update" element={<Update/>}/>
+        <Route path="myedit/:id" element={<Myedit/>}/>
         </Route>
        </Routes>
      </BrowserRouter>
