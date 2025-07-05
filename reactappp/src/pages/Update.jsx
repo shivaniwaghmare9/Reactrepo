@@ -3,7 +3,7 @@
 import Table from 'react-bootstrap/Table';
 import axios from "axios";
 import { useState,useEffect } from "react";
-const Display=()=>{
+const Update=()=>{
     const [mydata,setMydata]=useState([]);
     const loadData=async()=>{
         let api="http://localhost:3000/data"
@@ -49,4 +49,4 @@ const Display=()=>{
         </>
     )
 }
-export default Display;
+export default Update;
