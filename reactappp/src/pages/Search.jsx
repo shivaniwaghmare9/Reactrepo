@@ -1,4 +1,5 @@
 
+import Table from 'react-bootstrap/Table';
 import axios from "axios";
 import { useState } from "react";
 const Search=()=>{
@@ -29,7 +30,21 @@ const Search=()=>{
         <>
         <h3>Search data!!!</h3>
         Enter Rollno: <input type="text" value={empno} onChange={(e)=>{setEmpno(e.target.value)}}/><br/><br/>
-        <button onClick={handleSubmit}>Search</button>
+        <button onClick={handleSubmit}>Search</button><br/>
+        <Table striped bordered hover>
+      <thead>
+        <tr>
+          <th>Sno</th>
+          <th>Name</th>
+          <th>Rollno</th>
+          <th>City</th>
+          <th>Fees</th>
+        </tr>
+      </thead>
+      <tbody>
+        {ans}
+      </tbody>
+      </Table>
         </>
     )
 }
