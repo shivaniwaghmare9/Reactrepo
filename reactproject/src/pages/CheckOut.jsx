@@ -11,6 +11,11 @@ const CheckOut=()=>{
     const ans=cartData.map((key)=>{
         netAmount+=key.qnty*key.price;
     })
+
+    const handleSubmit=(e)=>{
+        e.preventDefault();
+        navigate("./paydone")
+    }
     return(
         <>
          <Form>
@@ -36,7 +41,7 @@ const CheckOut=()=>{
       </Form.Group>
 
       
-      <Button variant="primary" type="submit">
+      <Button variant="primary" type="submit" onClick={handleSubmit}>
         Submit
       </Button>
     </Form>
