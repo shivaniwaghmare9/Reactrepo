@@ -14,7 +14,7 @@ const CheckOut=()=>{
 
     const handleSubmit=(e)=>{
         e.preventDefault();
-        navigate("./paydone")
+        navigate("/paydone")
     }
     return(
         <>
