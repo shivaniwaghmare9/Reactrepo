@@ -14,13 +14,21 @@ const Myedit=()=>{
     useEffect(()=>{
         loadData()
     },[])
+
+    const handleInput=()=>{
+      let name=e.target.name;
+      let value=e.target.value;
+      setMydata(values=>({...values,[name]:value}))
+      console.log(mydata);
+    }
     return(
         <>
          <h3>Edit Data</h3>
-         Edit name: <input type="text" name="name" /><br/><br/>
-         Edit rollno: <input type="text" name="name" /><br/><br/>
-         Edit name: <input type="text" name="name" /><br/><br/>
-         Edit name: <input type="text" name="name" /><br/><br/>
+         Edit name: <input type="text" name="name" value={mydata.name} onChange={handleInput}/><br/><br/>
+         Edit rollno: <input type="text" name="rollno" value={mydata.rollno} onChange={handleInput}/><br/><br/>
+         Edit city: <input type="text" name="city" value={mydata.city} onChange={handleInput}/><br/><br/>
+         Edit fees: <input type="text" name="fees" value={mydata.fees} onChange={handleInput}/><br/><br/>
+         <button onClick={handleSubmit}>Edit!</button>
 
         </>
     )
