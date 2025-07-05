@@ -8,6 +8,7 @@ import Women from "./pages/Women"
 import Kid from "./pages/Kid"
 import Cartdata from "./pages/CartData"
 import CheckOut from "./pages/CheckOut"
+import Payment from "./pages/Payment"
 
 const App=()=>{
   return(
@@ -22,6 +23,7 @@ const App=()=>{
             <Route path="kid" element={<Kid/>}/>
             <Route path="cartdata" element={<Cartdata/>}/>
             <Route path="checkout" element={<CheckOut/>}/>
+            <Route path="paydone" element={<Payment/>}/>
             </Route>
          </Routes>
      </BrowserRouter>
