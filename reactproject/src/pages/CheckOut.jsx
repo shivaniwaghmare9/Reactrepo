@@ -7,21 +7,28 @@ const CheckOut=()=>{
     return(
         <>
          <Form>
-      <Form.Group className="mb-3" controlId="formBasicEmail">
-        <Form.Label>Email address</Form.Label>
-        <Form.Control type="email" placeholder="Enter email" />
-        <Form.Text className="text-muted">
-          We'll never share your email with anyone else.
-        </Form.Text>
+      <Form.Group className="mb-3">
+        <Form.Label>Enter Name</Form.Label>
+        <Form.Control type="text" placeholder="name" />
+      </Form.Group>
+      <Form.Group className="mb-3">
+        <Form.Label>Enter City</Form.Label>
+        <Form.Control type="text" placeholder="name" />
+      </Form.Group>
+      <Form.Group className="mb-3">
+        <Form.Label>Enter Address</Form.Label>
+        <Form.Control type="text" placeholder="name" />
+      </Form.Group>
+      <Form.Group className="mb-3">
+        <Form.Label>Enter Email</Form.Label>
+        <Form.Control type="text" placeholder="name" />
+      </Form.Group>
+      <Form.Group className="mb-3">
+        <Form.Label>Enter Mobile</Form.Label>
+        <Form.Control type="text" placeholder="name" />
       </Form.Group>
 
-      <Form.Group className="mb-3" controlId="formBasicPassword">
-        <Form.Label>Password</Form.Label>
-        <Form.Control type="password" placeholder="Password" />
-      </Form.Group>
-      <Form.Group className="mb-3" controlId="formBasicCheckbox">
-        <Form.Check type="checkbox" label="Check me out" />
-      </Form.Group>
+      
       <Button variant="primary" type="submit">
         Submit
       </Button>
