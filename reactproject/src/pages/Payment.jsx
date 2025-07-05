@@ -1,4 +1,6 @@
 
+import payment from "../images/paydone.jpg"
+import success from "../images/successful.jpg"
 import { useState } from "react";
 const Payment=()=>{
     const[isLoading,setIsLoading]=useState(true);
@@ -8,10 +10,17 @@ const Payment=()=>{
     },1000)
     return(
         <>
-         <center>
+        <center>
+         {isLoading ? (<> 
+         <img src={payment} alt="jpg" />
+         </>):(<>
+         <img src={success} alt="jpg" />
+         </>)
+         }
+        </center>
+        
 
-            
-         </center>
+         
         </>
     )
 }
