@@ -18,7 +18,7 @@ const App=()=>{
         <Route path="display" element={<Display/>}/>
         <Route path="search" element={<Search/>}/>
         <Route path="update" element={<Update/>}/>
-        <Route path="myedit/:id" element={<Myedit/>}/>
+        <Route path="edit/:id" element={<Myedit/>}/>
         </Route>
        </Routes>
      </BrowserRouter>
