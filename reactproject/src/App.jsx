@@ -24,6 +24,7 @@ const App=()=>{
             <Route path="cartdata" element={<Cartdata/>}/>
             <Route path="checkout" element={<CheckOut/>}/>
             <Route path="paydone" element={<Payment/>}/>
+            <Route path="searchdata/:txtval" element={<SearchData/>}/>
             </Route>
          </Routes>
      </BrowserRouter>
