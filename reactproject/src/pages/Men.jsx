@@ -7,6 +7,7 @@ import { addCart } from "../cartSlice";
 import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
 const Men=()=>{
+    const navigate = useNavigate();
     const[mydata,setMydata]=useState([]);
     const dispatch=useDispatch();
     const loadData=async()=>{

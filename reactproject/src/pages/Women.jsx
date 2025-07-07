@@ -9,6 +9,7 @@ import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
 
 const Women=()=>{
+    const navigate = useNavigate();
     const[mydata,setMydata]=useState([]);
     const dispatch=useDispatch();
     const loadData=async()=>{
