@@ -10,6 +10,8 @@ import Cartdata from "./pages/CartData"
 import CheckOut from "./pages/CheckOut"
 import Payment from "./pages/Payment"
 import SearchData from "./pages/SearchData";
+import ProductShow from "./pages/ProductShow";
+
 const App=()=>{
   return(
     <>
@@ -25,6 +27,8 @@ const App=()=>{
             <Route path="checkout" element={<CheckOut/>}/>
             <Route path="paydone" element={<Payment/>}/>
             <Route path="searchdata/:txtval" element={<SearchData/>}/>
+            <Route path="searchdata/:txtval" element={<SearchData/>}/>
+            
             </Route>
          </Routes>
      </BrowserRouter>
