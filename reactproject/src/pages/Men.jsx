@@ -5,7 +5,7 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import { addCart } from "../cartSlice";
 import { useDispatch } from "react-redux";
-
+import { useNavigate } from "react-router-dom";
 const Men=()=>{
     const[mydata,setMydata]=useState([]);
     const dispatch=useDispatch();
@@ -22,7 +22,7 @@ const Men=()=>{
         return(
             <>
     <Card id="card">
-        <Card.Img variant="top" src={key.image}  id="img"/>
+        <Card.Img variant="top" src={key.image}  id="img" onClick={()=>{navigate(`/productshow/${key.id}`)}}/>
       <Card.Body>
         <Card.Title>Name:{key.name}</Card.Title>
         <Card.Text>
@@ -52,7 +52,7 @@ const Men=()=>{
         return(
             <>
     <Card id="card">
-        <Card.Img variant="top" src={key.image}  id="img"/>
+        <Card.Img variant="top" src={key.image}  id="img" onClick={()=>{navigate(`/productshow/${key.id}`)}}/>
       <Card.Body>
         <Card.Title>Name:{key.name}</Card.Title>
         <Card.Text>
