@@ -20,7 +20,7 @@ const Header=()=>{
          <div id="inptag">
         <input type="text" placeholder="Search" className="inp" name="txtval" value={txtdata} 
         onChange={(e)=>{setTxtData(e.target.value)}}/>
-        <Button type="submit" id="subbtn" onClick={handleSubmit}>Submit</Button>
+        <Button type="submit" id="subbtn" onClick={handleSubmit}>Search</Button>
        </div>
             <div className='icons'>
         
