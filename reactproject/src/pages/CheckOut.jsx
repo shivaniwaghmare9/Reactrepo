@@ -3,6 +3,9 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import { useSelector } from "react-redux";
 import { useNavigate } from 'react-router-dom';
+import { useState } from 'react';
+import { toast } from "react-toastify";
+
 const CheckOut=()=>{
     const cartData=useSelector(state=>state.mycart.cart)
     const navigate=useNavigate();
@@ -27,8 +30,8 @@ const CheckOut=()=>{
     const handleSubmit=(e)=>{
         e.preventDefault();
        
-        if(!val.name || !val.email || !val.number || !val.address || !val.pin){
-        alert("Please fill all fields !")
+        if(!val.name || !val.email || !val.number || !val.address || !val.city){
+         toast.error("Please fill all fields !")
       }else{
           navigate("/paydone")
       }
