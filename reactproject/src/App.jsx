@@ -7,6 +7,7 @@ import Men from "./pages/Men"
 import Women from "./pages/Women"
 import Kid from "./pages/Kid"
 import Cartdata from "./pages/CartData"
+import Search from "./pages/Search";
 import CheckOut from "./pages/CheckOut"
 import Payment from "./pages/Payment"
 import SearchData from "./pages/SearchData";
@@ -24,6 +25,7 @@ const App=()=>{
             <Route path="women" element={<Women/>}/>
             <Route path="kid" element={<Kid/>}/>
             <Route path="cartdata" element={<Cartdata/>}/>
+            <Route path="search" element={<Search/>} />
             <Route path="checkout" element={<CheckOut/>}/>
             <Route path="paydone" element={<Payment/>}/>
             <Route path="searchdata/:txtval" element={<SearchData/>}/>
