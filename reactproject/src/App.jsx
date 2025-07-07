@@ -9,7 +9,7 @@ import Kid from "./pages/Kid"
 import Cartdata from "./pages/CartData"
 import CheckOut from "./pages/CheckOut"
 import Payment from "./pages/Payment"
-
+import SearchData from "./pages/SearchData";
 const App=()=>{
   return(
     <>
