@@ -73,7 +73,7 @@ const Home=()=>{
     return(
       <>
          <Card id="card">
-        <Card.Img variant="top" src={key.image}  id="img" onClick={()=>{navigate(`/productshow/${key.id}`)}}/>
+        <Card.Img variant="top" src={key.image}  id="img" onClick={()=>{navigate(`/productshow2/${key.item}`)}}/>
       <Card.Body>
         <Card.Title>Name:{key.name}</Card.Title>
         <Card.Text>

@@ -2,11 +2,11 @@ import { useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
 import axios from "axios";
 
-const ProductShow = () => {
-    const { id } = useParams();
+const ProductShow2 = () => {
+    const { item } = useParams();
     const[myData,setMyData]=useState({})
     const loaddata=async()=>{
-    let api=`http://localhost:3000/records/${id}`;
+    let api=`http://localhost:3000/records/${item}`;
     const response=await axios.get(api);
     setMyData(response.data);
     console.log(response.data)
@@ -32,4 +32,4 @@ const ProductShow = () => {
         </>
     )
 }
-export default ProductShow;
+export default ProductShow2;
