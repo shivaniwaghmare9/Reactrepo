@@ -43,7 +43,8 @@ const cartSlice=createSlice({
             }
         },
         reMove:(state,actions)=>{
-            state.cart=state.cart.filter(item=>item.id!=actions.payload.id)
+            state.cart=state.cart.shfilter(item=>item.id!=actions.payload.id)
+            toast.error("Product successful deleted !!");
         }
     }
 })

@@ -2,12 +2,14 @@
 import payment from "../images/loading.gif"
 import success from "../images/success2.png"
 import { useState } from "react";
+
 const Payment=()=>{
     const[isLoading,setIsLoading]=useState(true);
 
     setTimeout(()=>{
        setIsLoading(false)
     },1500)
+
     return(
         <>
         <center>
@@ -18,10 +20,7 @@ const Payment=()=>{
          </>)
          }
         </center>
-        
-
-         
-        </>
+    </>
     )
 }
 export default Payment;

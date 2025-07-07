@@ -3,11 +3,15 @@ import { useSelector,useDispatch } from "react-redux";
 import { FaIndianRupeeSign } from "react-icons/fa6";
 import { FaMinusSquare } from "react-icons/fa";
 import { FaPlusSquare } from "react-icons/fa";
+import  Button from 'react-bootstrap/Button';
 import { increMent,decreMent,reMove } from '../cartSlice';
+import { useNavigate } from "react-router-dom";
 
 const Cartdata=()=>{
     const cardData=useSelector(state=>state.mycart.cart);
      const dispatch=useDispatch();
+     const navigate = useNavigate();
+
      let TotalAmount=0;
     const ans=cardData.map((key)=>{
          TotalAmount+=key.qnty*key.price;
@@ -62,8 +66,9 @@ const Cartdata=()=>{
             <th><FaIndianRupeeSign />{TotalAmount}</th>
         </tr> 
      </tbody>
-        
-      </Table>
+      
+    </Table>
+    <Button variant="warning" onClick={()=>{navigate("/checkout")}}>CheckOut</Button>
         </>
     )
 }
