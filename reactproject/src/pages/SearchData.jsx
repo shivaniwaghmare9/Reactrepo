@@ -41,7 +41,7 @@ const SearchData=()=>{
 
 const[myData,setMyData]=useState([])
   const loaddata=async()=>{
-    let api="http://localhost:3000/records";
+    let api=`http://localhost:3000/records/?name=${txtval}`;
     const response=await axios.get(api);
     setMyData(response.data);
     console.log(response.data)
@@ -70,7 +70,7 @@ const[myData,setMyData]=useState([])
   })
     return(
         <>
-         <h1>Search Data</h1>     
+         <h1 style={{marginLeft:"30px"}}>Search Data</h1>     
         <div id="carddata">
              {ans}
         </div> 
