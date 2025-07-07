@@ -42,7 +42,7 @@ const Home=()=>{
       <>
       
          <Card id="card">
-        <Card.Img variant="top" src={key.image}  id="img"onClick={()=>{navigate(`/datashow/${key.id}`)}}/>
+        <Card.Img variant="top" src={key.image}  id="img" onClick={()=>{navigate(`/productshow/${key.id}`)}}/>
       <Card.Body>
         <Card.Title>Name:{key.name}</Card.Title>
         <Card.Text>
@@ -73,7 +73,7 @@ const Home=()=>{
     return(
       <>
          <Card id="card">
-        <Card.Img variant="top" src={key.image}  id="img"/>
+        <Card.Img variant="top" src={key.image}  id="img" onClick={()=>{navigate(`/productshow/${key.id}`)}}/>
       <Card.Body>
         <Card.Title>Name:{key.name}</Card.Title>
         <Card.Text>
