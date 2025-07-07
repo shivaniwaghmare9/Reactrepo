@@ -20,10 +20,13 @@ import { useEffect, useState } from 'react';
 import axios from 'axios';
 import { useDispatch } from 'react-redux';
 import { addCart } from '../cartSlice';
+import { useNavigate } from "react-router-dom";
 
 const Home=()=>{
+  const navigate = useNavigate();
   const dispatch=useDispatch();
   const[mydata,setMydata]=useState([])
+  
   const loadData=async()=>{
     let api="http://localhost:3000/products";
     const response=await axios.get(api);
@@ -39,7 +42,7 @@ const Home=()=>{
       <>
       
          <Card id="card">
-        <Card.Img variant="top" src={key.image}  id="img"/>
+        <Card.Img variant="top" src={key.image}  id="img"onClick={()=>{navigate(`/datashow/${key.id}`)}}/>
       <Card.Body>
         <Card.Title>Name:{key.name}</Card.Title>
         <Card.Text>

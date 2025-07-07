@@ -11,7 +11,7 @@ const SearchData=()=>{
     const [mydata, setMydata] = useState([]);
     const dispatch = useDispatch();
     const loadData=async()=>{
-        let api=`http://localhost:3000/products/?name=${txtval}`;
+        let api=`http://localhost:3000/products/?brand=${txtval}`;
         const response = await axios.get(api);
         console.log(response.data);
          setMydata(response.data);
@@ -41,7 +41,7 @@ const SearchData=()=>{
 
 const[myData,setMyData]=useState([])
   const loaddata=async()=>{
-    let api=`http://localhost:3000/records/?name=${txtval}`;
+    let api=`http://localhost:3000/records/?brand=${txtval}`;
     const response=await axios.get(api);
     setMyData(response.data);
     console.log(response.data)
