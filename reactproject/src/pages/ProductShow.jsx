@@ -23,9 +23,9 @@ return (
                     <img src={mydata.image} width="300" height="300" />
                 </div>
                 <div>
-                    <h1> Product Name : {mydata.name}</h1> 
+                    <h2> Product Name : {mydata.name}</h2> 
                     <h3 style={{color:"green"}}> Category : {mydata.category}</h3>
-                    <h2 style={{color:"red"}}> Price  : {mydata.price}</h2>
+                    <h2 style={{color:"red"}}> Price  : {mydata.price} /-</h2>
                      </div>
             </div>
 
