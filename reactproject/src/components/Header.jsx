@@ -1,6 +1,6 @@
 
 import Button from 'react-bootstrap/Button';
-
+import { useState } from 'react';
 import { FaShoppingCart } from "react-icons/fa";
 import { FaRegUserCircle } from "react-icons/fa";
 import { useSelector } from 'react-redux';
@@ -8,7 +8,12 @@ import { useNavigate } from 'react-router-dom';
 const Header=()=>{
     const navigate=useNavigate();
     const cartData=useSelector(state=>state.mycart.cart);
-    const cartLength=cartData.length;
+    const cartLength=cartData.length;    
+    const [txtdata, setTxtData]= useState("");
+
+    const handleSubmit=()=>{
+    navigate(`searchdata/${txtdata}`)
+  }
     return(
         <>
     <div className="header">
