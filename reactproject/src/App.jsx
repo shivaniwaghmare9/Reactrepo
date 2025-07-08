@@ -13,6 +13,7 @@ import Payment from "./pages/Payment"
 import SearchData from "./pages/SearchData";
 import ProductShow from "./pages/ProductShow";
 import ProductShow2 from "./pages/ProductShow2";
+import SortData from "./pages/SortData"
 
 const App=()=>{
   return(
@@ -32,6 +33,8 @@ const App=()=>{
             <Route path="searchdata/:txtval" element={<SearchData/>}/>
             <Route path="productshow/:id" element={<ProductShow/>}/>
              <Route path="productshow2/:item" element={<ProductShow2/>}/>
+             <Route path="sortData" element={<SortData/>}/>
+             
 
             </Route>
          </Routes>
