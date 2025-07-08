@@ -28,7 +28,7 @@ const SortData = () => {
 
 const ans = mydata.map((key)=>{
 
-    if(item.price>=min && item.price<=max){
+    if(key.price>=min && key.price<=max){
     return(
        <>
        <Card id="card">
@@ -65,10 +65,8 @@ const ans = mydata.map((key)=>{
          <Button onClick={handleSubmit}>Search Data</Button>
         </div>
     </div>
-        <div className="showdata">
-            <div>
-                {ans}
-            </div>
+         <div id="carddata">
+            {ans}
         </div>
     </>
   );
