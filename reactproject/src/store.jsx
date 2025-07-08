@@ -8,10 +8,12 @@ const persistConfig = {
   key: "root",
   storage,
 };
+
 const persistedReducer = persistReducer(persistConfig, myReducer);
+
 const store=configureStore({
     reducer:{
-     mycart:persistedReducer
+     mycard:persistedReducer
     }
 })
 export default store;

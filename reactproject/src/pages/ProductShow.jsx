@@ -6,7 +6,7 @@ const ProductShow = () => {
     const { id } = useParams();
     const [mydata, setMydata] = useState({})
     const loadData = async () => {
-        let api = `http://localhost:3000/products/${id}`;
+        let api = `http://localhost:3000/product/${id}`;
         const response = await axios.get(api);
         setMydata(response.data);
         console.log(response.data);

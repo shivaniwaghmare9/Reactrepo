@@ -1,49 +1,51 @@
 import { createSlice } from "@reduxjs/toolkit";
 import { toast } from "react-toastify";
+
 const cartSlice=createSlice({
-    name:"mycart",
+    name:"mycard",
     initialState:{
-        cart:[]
+        card:[]
     },
+    
     reducers:{
         addCart:(state,actions)=>{
-          const mydata= state.cart.filter((key)=>key.id==actions.payload.id);
+          const mydata= state.card.filter((key)=>key.id==actions.payload.id);
             if (mydata.length>=1)
             {
                toast.error("This Product Aleready Added!!");
             }
             else 
             {
-                state.cart.push(actions.payload);
+                state.card.push(actions.payload);
             }
     
         },
         decreMent:(state,actions)=>{
-            for(var i=0; i<state.cart.length; i++)
+            for(var i=0; i<state.card.length; i++)
             {
-              if(state.cart[i].id==actions.payload.id){
-                if(state.cart[i].qnty<=1)
+              if(state.card[i].id==actions.payload.id){
+                if(state.card[i].qnty<=1)
                 {
                  toast.warning("Quantity not less then 0");
                 }
                 else
                {
-                state.cart[i].qnty--;
+                state.card[i].qnty--;
                }
             }
         }
         },
         increMent:(state,actions)=>{
-            for(var i=0; i<state.cart.length; i++)
+            for(var i=0; i<state.card.length; i++)
             {
-              if(state.cart[i].id==actions.payload.id)
+              if(state.card[i].id==actions.payload.id)
               {
-                state.cart[i].qnty++;
+                state.card[i].qnty++;
                }
             }
         },
         reMove:(state,actions)=>{
-            state.cart=state.cart.shfilter(item=>item.id!=actions.payload.id)
+            state.card=state.card.shfilter(item=>item.id!=actions.payload.id)
             toast.error("Product successful deleted !!");
         }
     }

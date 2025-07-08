@@ -8,7 +8,7 @@ import { increMent,decreMent,reMove } from '../cartSlice';
 import { useNavigate } from "react-router-dom";
 
 const Cartdata=()=>{
-    const cardData=useSelector(state=>state.mycart.cart);
+    const cardData=useSelector(state=>state.mycard.card);
      const dispatch=useDispatch();
      const navigate = useNavigate();
 

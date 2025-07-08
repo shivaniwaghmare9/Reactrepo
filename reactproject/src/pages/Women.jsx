@@ -13,7 +13,7 @@ const Women=()=>{
     const[mydata,setMydata]=useState([]);
     const dispatch=useDispatch();
     const loadData=async()=>{
-        let api="http://localhost:3000/products/?category=women"
+        let api="http://localhost:3000/product/?category=women"
         const response=await axios.get(api);
         console.log(response.data);
         setMydata(response.data);

@@ -7,7 +7,7 @@ import { useState } from 'react';
 import { toast } from "react-toastify";
 
 const CheckOut=()=>{
-    const cartData=useSelector(state=>state.mycart.cart)
+    const cartData=useSelector(state=>state.mycard.card)
     const navigate=useNavigate();
     const [val,setVal] = useState({  name: "",
         email: "",

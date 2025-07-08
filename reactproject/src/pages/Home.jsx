@@ -28,7 +28,7 @@ const Home=()=>{
   const[mydata,setMydata]=useState([])
   
   const loadData=async()=>{
-    let api="http://localhost:3000/products";
+    let api="http://localhost:3000/product";
     const response=await axios.get(api);
     setMydata(response.data);
     console.log(response.data)

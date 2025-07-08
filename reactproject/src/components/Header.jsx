@@ -7,7 +7,7 @@ import { useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 const Header=()=>{
     const navigate=useNavigate();
-    const cartData=useSelector(state=>state.mycart.cart);
+    const cartData=useSelector(state=>state.mycard.card);
     const cartLength=cartData.length;    
     const [txtdata, setTxtData]= useState("");
 

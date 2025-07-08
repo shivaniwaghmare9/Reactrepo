@@ -12,7 +12,7 @@ const Search=()=>{
 
 
  const loadData=async()=>{
-    const response = await axios.get("http://localhost:3000/products");
+    const response = await axios.get("http://localhost:3000/product");
     console.log(response.data);
     setMydata(response.data);
  }
