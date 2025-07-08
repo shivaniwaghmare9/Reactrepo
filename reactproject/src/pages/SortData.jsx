@@ -51,7 +51,8 @@ const ans = mydata.map((key)=>{
 
   return (
     <>
-      <h1>Search Data here By Price</h1>
+      <h3>Search Data here By Price</h3>
+      <div className='Div'>
       <div className="Div1">
           <input
             type="number"
@@ -63,7 +64,7 @@ const ans = mydata.map((key)=>{
             onChange={(e) => setMax(e.target.value)}/>
          <Button onClick={handleSubmit}>Search Data</Button>
         </div>
-
+    </div>
         <div className="showdata">
             <div>
                 {ans}
