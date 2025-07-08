@@ -26,14 +26,15 @@ const App=()=>{
             <Route path="men" element={<Men/>}/>
             <Route path="women" element={<Women/>}/>
             <Route path="kid" element={<Kid/>}/>
+             <Route path="sortData" element={<SortData/>}/>
             <Route path="cartdata" element={<Cartdata/>}/>
             <Route path="search" element={<Search/>} />
             <Route path="checkout" element={<CheckOut/>}/>
             <Route path="paydone" element={<Payment/>}/>
             <Route path="searchdata/:txtval" element={<SearchData/>}/>
             <Route path="productshow/:id" element={<ProductShow/>}/>
-             <Route path="productshow2/:item" element={<ProductShow2/>}/>
-             <Route path="sortData" element={<SortData/>}/>
+            <Route path="productshow2/:item" element={<ProductShow2/>}/>
+            
              
 
             </Route>
