@@ -41,6 +41,7 @@ const Cartdata=()=>{
     return(
         <>
          <h3 id="h3tag">OUR COLLECTED DATA</h3>
+          <Button variant="warning" onClick={()=>{navigate("/checkout")}}>CheckOut</Button>
          <Table striped bordered hover size="sm" style={{marginTop:"30px"}}>
       <thead>
         <tr>
@@ -68,7 +69,7 @@ const Cartdata=()=>{
      </tbody>
       
     </Table>
-    <Button variant="warning" onClick={()=>{navigate("/checkout")}}>CheckOut</Button>
+   
         </>
     )
 }

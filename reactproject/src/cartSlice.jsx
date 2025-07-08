@@ -45,7 +45,7 @@ const cartSlice=createSlice({
             }
         },
         reMove:(state,actions)=>{
-            state.card=state.card.shfilter(item=>item.id!=actions.payload.id)
+            state.card=state.card.filter(item=>item.id!=actions.payload.id)
             toast.error("Product successful deleted !!");
         }
     }

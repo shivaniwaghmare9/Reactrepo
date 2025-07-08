@@ -42,7 +42,7 @@ const CheckOut=()=>{
         <>
         
         {netAmount}
-         <Form style={{marginLeft:"30%",width:"500px",marginTop:"30px"}}>
+         <Form style={{marginLeft:"30%",width:"500px",marginTop:"20px"}}>
       <Form.Group className="mb-3">
         <Form.Label>Enter Name</Form.Label>
         <Form.Control type="text" placeholder="name" name="name" value={val.name} onChange={handleVal}/>
