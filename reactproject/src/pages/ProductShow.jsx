@@ -11,8 +11,16 @@ const ProductShow = () => {
         setMydata(response.data);
         console.log(response.data);
     }
+
+    const loaddata=async()=>{
+    let api=`http://localhost:3000/records/${id}`;
+    const response=await axios.get(api);
+    setMydata(response.data);
+    console.log(response.data)
+     }
     useEffect(() => {
         loadData();
+        loaddata()
     }, []);
 
 
@@ -24,7 +32,7 @@ return (
                 </div>
                 <div>
                     <h2> Product Name : {mydata.name}</h2> 
-                    <h3 style={{color:"green"}}>Category :{mydata.category}</h3>
+                    <h4 style={{color:"green"}}>Category :{mydata.category}</h4>
                     <h2 style={{color:"red"}}> Price  : {mydata.price} /-</h2>
                      </div>
             </div>
