@@ -70,7 +70,7 @@ const[myData,setMyData]=useState([])
   })
     return(
         <>
-         <h1 style={{marginLeft:"30px"}}>Search Data</h1>     
+         <h3 id="h3tag" >Search Data</h3>     
         <div id="carddata">
              {ans}
         </div> 

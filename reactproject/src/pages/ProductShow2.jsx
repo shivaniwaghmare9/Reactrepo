@@ -6,10 +6,10 @@ const ProductShow2 = () => {
     const { item } = useParams();
     const[myData,setMyData]=useState({})
     const loaddata=async()=>{
-    let api=`http://localhost:3000/records/${item}`;
-    const response=await axios.get(api);
-    setMyData(response.data);
-    console.log(response.data)
+    let apii=`http://localhost:3000/records/${item}`;
+    const res=await axios.get(apii);
+    setMyData(res.data);
+    console.log(res.data)
   }
   useEffect(()=>{
    loaddata();
