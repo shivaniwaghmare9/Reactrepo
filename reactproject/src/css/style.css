@@ -11,7 +11,9 @@
 #img{
     height: 300px;
     width: 300px;
+    
 }
+
 #card{
     width: 300px;
     display: flex;
@@ -19,7 +21,9 @@
     gap: 50px;
     border: none;
     background-color:whitesmoke;
-    
+    transition: transform 0.3s ease;
+    transform-style: preserve-3d;
+    cursor: pointer;
 }
 .cartbtn{
   background-color: black;
@@ -29,12 +33,6 @@
   background-color: aliceblue;
   color: black;
 }
-#card {
-  transition: transform 0.3s ease;
-  transform-style: preserve-3d;
-  cursor: pointer;
-}
-
 #card:hover {
   transform: perspective(600px) translateZ(20px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
