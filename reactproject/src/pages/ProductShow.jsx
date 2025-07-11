@@ -30,10 +30,11 @@ return (
                 <div>
                     <img src={mydata.image} width="300" height="300" />
                 </div>
-                <div>
-                    <h2> Product Name : {mydata.name}</h2> 
-                    <h4 style={{color:"green"}}>Category :{mydata.category}</h4>
-                    <h2 style={{color:"red"}}> Price  : {mydata.price} /-</h2>
+                <div style={{marginTop:"40px"}}>
+                    <h2 style={{fontWeight:"bold"}}> Product Name : {mydata.name}</h2> 
+                    <h4 style={{color:"indianred"}}>Brand : {mydata.brand}</h4>
+                    <h4 style={{fontWeight:"bold"}}>Category : {mydata.category}</h4>
+                    <h4 style={{color:"red"}}> Price  : {mydata.price} /-</h4>
                      </div>
             </div>
 
