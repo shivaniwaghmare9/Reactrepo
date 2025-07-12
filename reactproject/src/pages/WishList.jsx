@@ -1,18 +1,11 @@
 import Table from 'react-bootstrap/Table';
 import { useSelector,useDispatch } from "react-redux";
-import { FaIndianRupeeSign } from "react-icons/fa6";
-import { FaMinusSquare } from "react-icons/fa";
-import { FaPlusSquare } from "react-icons/fa";
-import  Button from 'react-bootstrap/Button';
 import { ReMove } from '../wishSlice';
 import { useNavigate } from "react-router-dom";
 
 const Wishlist=()=>{
      const wish=useSelector(state=>state.mycardd.cardd);
      const dispatch=useDispatch();
-     const navigate = useNavigate();
-
-     
     const ans=wish.map((key)=>{
          
         return(
@@ -37,7 +30,7 @@ const Wishlist=()=>{
     return(
         <>
          <h3 id="h3tag">OUR COLLECTED DATA</h3>
-          <Button variant="warning" onClick={()=>{navigate("/checkout")}}>CheckOut</Button>
+          
          <Table striped bordered hover size="sm" style={{marginTop:"30px"}}>
       <thead>
         <tr>
@@ -51,7 +44,7 @@ const Wishlist=()=>{
         </tr>
       </thead>
       <tbody>
-        
+        {ans}
      </tbody>
       
     </Table>
