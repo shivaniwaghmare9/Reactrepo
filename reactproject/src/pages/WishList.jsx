@@ -4,17 +4,17 @@ import { FaIndianRupeeSign } from "react-icons/fa6";
 import { FaMinusSquare } from "react-icons/fa";
 import { FaPlusSquare } from "react-icons/fa";
 import  Button from 'react-bootstrap/Button';
-import { reMove } from '../cartSlice';
+import { ReMove } from '../wishSlice';
 import { useNavigate } from "react-router-dom";
 
 const Wishlist=()=>{
-     const wish=useSelector(state=>state.mycard.card);
+     const wish=useSelector(state=>state.mycardd.cardd);
      const dispatch=useDispatch();
      const navigate = useNavigate();
 
-     let TotalAmount=0;
+     
     const ans=wish.map((key)=>{
-         TotalAmount+=key.qnty*key.price;
+         
         return(
             <>
              <tr>
@@ -24,15 +24,11 @@ const Wishlist=()=>{
                 <td>{key.name}</td>
                 <td>{key.brand}</td>
                 <td>{key.category}</td>
-                <td style={{fontSize:"20px"}}>
-                  <FaMinusSquare onClick={()=>{dispatch(decreMent({id:key.id}))}}/>
-                  {key.qnty}
-                  <FaPlusSquare onClick={()=>{dispatch(increMent({id:key.id}))}}/>
-                  </td>
+                
                 <td>{key.price}</td>
-                <td>{key.qnty*key.price}</td> 
+                 
                 <td>
-                  <span onClick={()=>{dispatch(reMove({id:key.id}))}} style={{backgroundColor:"black",padding:"0.4rem",color:"aliceblue"}}>remove</span>
+                  <span onClick={()=>{dispatch(ReMove({id:key.id}))}} style={{backgroundColor:"black",padding:"0.4rem",color:"aliceblue"}}>remove</span>
                 </td>
              </tr>
             </>
@@ -51,21 +47,11 @@ const Wishlist=()=>{
           <th>Category</th>
           <th>Quantity</th>
           <th>Price</th>
-          <th>Total Price</th>
           <th>Remove</th>
         </tr>
       </thead>
       <tbody>
-        {ans}
-         <tr>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th>NetAmount</th>
-            <th><FaIndianRupeeSign />{TotalAmount}</th>
-        </tr> 
+        
      </tbody>
       
     </Table>
