@@ -28,10 +28,7 @@ const ProductShow = () => {
         loaddata()
     }, []);
 
-    // const handleWishClick = () => {
-    //     dispatch(addCard(mydata));
-    //     alert("Added to wishlist!");
-    // };
+    
 
 
 return (
@@ -45,7 +42,7 @@ return (
                     <h4 style={{color:"indianred"}}>Brand : {mydata.brand}</h4>
                     <h4 style={{fontWeight:"bold"}}>Category : {mydata.category}</h4>
                     <h4 style={{color:"red"}}> Price  : {mydata.price} /-</h4>
-                    {/* <button onClick={handleWishClick}>Wish</button> */}
+                    
                     <Button variant="primary" type="submit" onClick={()=>dispatch(addCard(mydata))}>Wish </Button>
       
                      </div>

@@ -10,7 +10,7 @@ import { useNavigate } from "react-router-dom";
 const Cartdata=()=>{
     const cardData=useSelector(state=>state.mycard.card);
      const dispatch=useDispatch();
-     const navigate = useNavigate();
+     const navigate=useNavigate();
 
      let TotalAmount=0;
     const ans=cardData.map((key)=>{

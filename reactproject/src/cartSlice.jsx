@@ -20,12 +20,6 @@ const cartSlice=createSlice({
             }
     
         },
-        addCard:(state,actions)=>{
-            state.card=state.card.filter((key)=>key.id==actions.payload.id);
-            {
-                state.card.push(actions.payload);
-            }
-        },
         
         
         decreMent:(state,actions)=>{
@@ -58,5 +52,5 @@ const cartSlice=createSlice({
         }
     }
 })
-export const{addCart,decreMent,increMent,reMove,addCard}=cartSlice.actions;
+export const{addCart,decreMent,increMent,reMove}=cartSlice.actions;
 export default cartSlice.reducer;
