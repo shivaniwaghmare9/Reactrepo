@@ -14,11 +14,12 @@ const wishSlice=createSlice({
             state.cardd=state.cardd.filter((key)=>key.id==actions.payload.id);
             {
                 state.cardd.push(actions.payload);
+                toast.info("Added to wishlist!");
             }
         },
         ReMove:(state,actions)=>{
             state.cardd=state.cardd.filter(item=>item.id!=actions.payload.id)
-            toast.error("Product successful deleted !!");
+            toast.error("Product successful remove !!");
         }
     }
 })
