@@ -13,6 +13,7 @@ import Payment from "./pages/Payment"
 import SearchData from "./pages/SearchData";
 import ProductShow from "./pages/ProductShow";
 import SortData from "./pages/SortData"
+import Wishlist from "./pages/WishList"
 
 const App=()=>{
   return(
@@ -32,6 +33,7 @@ const App=()=>{
             <Route path="paydone" element={<Payment/>}/>
             <Route path="searchdata/:txtval" element={<SearchData/>}/>
             <Route path="productshow/:id" element={<ProductShow/>}/>
+            <Route path="wishlist/:id" element={<Wishlist/>}/>
             
             
              

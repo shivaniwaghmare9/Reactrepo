@@ -20,6 +20,18 @@ const cartSlice=createSlice({
             }
     
         },
+        addCard:(state,actions)=>{
+          const mydata= state.card.filter((key)=>key.id==actions.payload.id);
+            if (mydata.length>=1)
+            {
+               toast.error("This Product Aleready Added!!");
+            }
+            else 
+            {
+                state.card.push(actions.payload);
+            }
+    
+        },
         decreMent:(state,actions)=>{
             for(var i=0; i<state.card.length; i++)
             {
@@ -50,5 +62,5 @@ const cartSlice=createSlice({
         }
     }
 })
-export const{addCart,decreMent,increMent,reMove}=cartSlice.actions;
+export const{addCart,decreMent,increMent,reMove,addCard}=cartSlice.actions;
 export default cartSlice.reducer;
