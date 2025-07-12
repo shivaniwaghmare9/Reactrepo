@@ -33,7 +33,7 @@ const App=()=>{
             <Route path="paydone" element={<Payment/>}/>
             <Route path="searchdata/:txtval" element={<SearchData/>}/>
             <Route path="productshow/:id" element={<ProductShow/>}/>
-            <Route path="wishlist/:id" element={<Wishlist/>}/>
+            <Route path="/wishlist" element={<Wishlist/>}/>
             
             
              
