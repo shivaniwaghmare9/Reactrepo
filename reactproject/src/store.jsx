@@ -3,6 +3,7 @@ import { configureStore } from "@reduxjs/toolkit";
 import { persistStore, persistReducer } from "redux-persist";
 import storage from "redux-persist/lib/storage";
 import myReducer from "./cartSlice"
+import wishReducer from "./wishSlice"
 
 const persistConfig = {
   key: "root",
@@ -10,10 +11,12 @@ const persistConfig = {
 };
 
 const persistedReducer = persistReducer(persistConfig, myReducer);
+const persistedReducerr = persistReducer(persistConfig, wishReducer);
 
 const store=configureStore({
     reducer:{
-     mycard:persistedReducer
+     mycard:persistedReducer,
+     mycardd:persistedReducerr
     }
 })
 export default store;
