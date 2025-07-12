@@ -147,3 +147,48 @@ body{
 #bar{
     display: none;
 }
+
+/*=========================================================================[MEDIA QUERY STARTS HERE]===========================================================================================================*/
+@media (max-width:450px){
+  /*=========================================================================HEADER=============================================================*/
+#carticon{
+    cursor: pointer;
+}
+.header{
+    height: 70px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+#inptag{
+    /* width: 50%; */
+    display:flex;
+    /* align-items:center; */
+    margin-left: none;
+    /* justify-content:center; */
+}
+ .icons{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    gap: 30px;
+    color: aliceblue;
+    margin-right: 3%;
+}
+.inp{
+    width: 60%;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+}
+
+
+/*======================================================================NAVBAR================================================================================*/
+.me-auto{
+    display: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+}

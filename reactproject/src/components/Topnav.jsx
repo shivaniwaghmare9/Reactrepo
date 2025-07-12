@@ -18,6 +18,7 @@ const Topnav=()=>{
             <Nav.Link as={Link} to="sortData" id="content">SortData</Nav.Link>
             <Nav.Link as={Link} to="cartdata" id="content">CartData</Nav.Link>
             <Nav.Link as={Link} to="search" id="content">Search</Nav.Link>
+            <Nav.Link as={Link} to="search" id="content"></Nav.Link>
             
         
           

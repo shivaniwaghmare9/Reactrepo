@@ -1,8 +1,10 @@
 import { useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
 import axios from "axios";
+import { useNavigate } from 'react-router-dom';
 
 const ProductShow = () => {
+    const navigate=useNavigate();
     const { id } = useParams();
     const [mydata, setMydata] = useState({})
     const loadData = async () => {
@@ -35,6 +37,7 @@ return (
                     <h4 style={{color:"indianred"}}>Brand : {mydata.brand}</h4>
                     <h4 style={{fontWeight:"bold"}}>Category : {mydata.category}</h4>
                     <h4 style={{color:"red"}}> Price  : {mydata.price} /-</h4>
+                    <h4 onClick={()=>{navigate("/wishlist")}}>wishlist</h4>
                      </div>
             </div>
 
