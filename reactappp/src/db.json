@@ -1,3 +1,22 @@
+// {
+//   "data": [
+//     {
+//       "id": "1",
+//       "name": "shivani",
+//       "rollno": 1002,
+//       "city": "bhopal",
+//       "fees": 34220
+//     },
+//     {
+//       "id": "be2b",
+//       "name": "divya",
+//       "rollno": "1002",
+//       "city": "indore",
+//       "fees": "345522"
+//     }
+//   ]
+// }
+
 {
   "data": [
     {
