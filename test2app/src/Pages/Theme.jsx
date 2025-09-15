@@ -2,7 +2,7 @@
 import { useSelector,useDispatch } from "react-redux";
 import { changeColor } from "../Slices/ColorSlice";
 import { useState } from "react";
-const Theme=()=>{
+const  Theme=()=>{
     const clr=useSelector(state=>state.mycolor.color)
     const dispatch=useDispatch();
     const[txt,setTxt]=useState("")
