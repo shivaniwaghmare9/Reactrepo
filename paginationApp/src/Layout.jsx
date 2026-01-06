@@ -7,7 +7,7 @@ const Layout=()=>{
         <>
          <Topnav/>
           <Outlet/>
-         <Footer/>
+          <Footer/>
         </>
     )
 }
