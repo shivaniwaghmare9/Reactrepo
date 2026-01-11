@@ -10,7 +10,7 @@ const Insert=()=>{
   const[input,setInput]=useState({});
   const handleInput=(e)=>{
     let name= e.target.name;
-    let value=e.target.value;
+    let value= e.target.value;
 
     setInput((values)=>({...values,[name]:value}));
     console.log(input);
