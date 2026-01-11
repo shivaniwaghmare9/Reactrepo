@@ -21,7 +21,7 @@ const Insert=()=>{
     const response=await axios.post(api,input);
     toast.success("data succesfully saved!!");
     console.log(response);
-    setInput({
+    setInput ({
       name:"",
       city:"",
       post:"",
