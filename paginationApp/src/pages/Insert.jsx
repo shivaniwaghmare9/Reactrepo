@@ -12,7 +12,7 @@ const Insert=()=>{
     let name = e.target.name;
     let value = e.target.value;
 
-    setInput ((values)=> ({...values,[name]:value}));
+    setInput ((values) => ({...values,[name]:value}));
     console.log(input);
   }
   const handleSubmit=async(e)=>{
