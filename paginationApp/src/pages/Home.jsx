@@ -4,7 +4,7 @@ const Home=()=>{
     return(
         <>
         <h1 id="head"> Home Page !!! </h1>
-        <div>
+         <div>
          <img src={myimg} id="img"/>
         </div>
         </>
