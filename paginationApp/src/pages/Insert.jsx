@@ -30,7 +30,7 @@ const Insert=()=>{
   }
     return(
         <>
-        <h1 id="head">Welcome to insert page !!!</h1>
+        <h1 id="head"> Welcome to insert page !!!</h1>
     <Form id="form">
         
       <Form.Group className="mb-3" >
