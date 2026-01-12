@@ -19,7 +19,7 @@ const Insert=()=>{
      e.preventDefault();     //page refresh nhii krta h
     let api="http://localhost:3000/records";
     const response=await axios.post(api,input);
-    toast.success("data succesfully saved!!");
+    toast.success ("data succesfully saved!!");
     console.log(response);
     setInput ({
       name:"",
