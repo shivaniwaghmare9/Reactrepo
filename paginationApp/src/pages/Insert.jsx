@@ -33,7 +33,7 @@ const Insert=()=>{
         <h1 id="head"> Welcome to insert page !!!</h1>
     <Form id="form">
         
-      <Form.Group className ="mb-3">
+        <Form.Group className ="mb-3">
         <Form.Label> Enter Name </Form.Label>
         <Form.Control type="text"  name="name" onChange={handleInput}/>
       </Form.Group>
