@@ -22,7 +22,7 @@ const Insert=()=>{
     toast.success ("data succesfully saved!!");
     console.log (response);
     setInput ({
-        name:"",
+         name:"",
         city:"",
         post:"",
         salary:""
