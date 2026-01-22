@@ -25,7 +25,7 @@ const Insert=()=>{
         name:"",
         city:"",
         post:"",
-       salary:""
+        salary:""
     })
   }
     return(
