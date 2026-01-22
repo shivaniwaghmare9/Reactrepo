@@ -23,7 +23,7 @@ const Insert=()=>{
     console.log (response);
     setInput ({
         name:"",
-       city:"",
+        city:"",
        post:"",
        salary:""
     })
