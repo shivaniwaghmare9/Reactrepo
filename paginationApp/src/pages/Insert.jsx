@@ -24,7 +24,7 @@ const Insert=()=>{
     setInput ({
         name:"",
         city:"",
-       post:"",
+        post:"",
        salary:""
     })
   }
