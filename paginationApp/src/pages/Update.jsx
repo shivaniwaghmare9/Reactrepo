@@ -61,7 +61,7 @@ const Update=()=>{
         <Table striped bordered hover>
               <thead>
                 <tr>
-                  <th>Sno</th>
+                   <th>Sno</th>
                   <th onClick={sortdata}>Name</th>
                   <th>City</th>
                   <th>Post</th>
