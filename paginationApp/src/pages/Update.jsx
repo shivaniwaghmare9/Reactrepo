@@ -62,7 +62,7 @@ const Update=()=>{
               <thead>
                 <tr>
                    <th>Sno</th>
-                  <th onClick={sortdata}>Name</th>
+                   <th onClick={sortdata}>Name</th>
                   <th>City</th>
                   <th>Post</th>
                   <th>Salary</th>
