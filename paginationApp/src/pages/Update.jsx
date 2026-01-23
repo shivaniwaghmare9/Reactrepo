@@ -65,7 +65,7 @@ const Update=()=>{
                    <th onClick={sortdata}>Name</th>
                    <th>City</th>
                    <th>Post</th>
-                  <th>Salary</th>
+                   <th>Salary</th>
                   <th>Upadte</th>
                   <th>Delete</th>
                 </tr>
