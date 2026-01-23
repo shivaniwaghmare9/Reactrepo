@@ -51,7 +51,7 @@ const Update=()=>{
              <td>{item.salary}</td>
              <td><span>Edit</span></td>
              <td><span onClick={()=>del(item.id)}>Delete</span></td>
-          </tr>
+           </tr>
         )
     })
     
