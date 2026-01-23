@@ -43,7 +43,7 @@ const Update=()=>{
     const Record = mydata.map((item)=>{
         sno++;
         return(
-          <tr>
+           <tr>
              <td>{sno}</td>
              <td>{item.name}</td>
              <td>{item.city}</td>
