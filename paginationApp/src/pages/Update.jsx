@@ -41,7 +41,7 @@ const Update=()=>{
 
    let sno=0;
     const Record = mydata.map((item)=>{
-        sno++;
+         sno++;
         return(
            <tr>
              <td>{sno}</td>
