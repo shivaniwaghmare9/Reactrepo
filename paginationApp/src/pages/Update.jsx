@@ -45,7 +45,7 @@ const Update=()=>{
         return(
           <tr>
              <td>{sno}</td>
-            <td>{item.name}</td>
+             <td>{item.name}</td>
             <td>{item.city}</td>
             <td>{item.post}</td>
             <td>{item.salary}</td>
